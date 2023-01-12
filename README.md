@@ -15,3 +15,6 @@ which also works for lists.
 use of the input function on run, and split funtions during input.
 Also shows use of various flow commands such as `if` , `elif`.
 
+[4-fizzbuzz.py](./4-fizzbuzz.py): THe almighty fizzbuzz. Shows how to lop through a range of numbers and uses flow command to print either
+Fizz if the number is a multiple of 3, Buzz if it is a multiple of 5 and Fizzbuzz if they are multiples of both 3 and 5.
+
