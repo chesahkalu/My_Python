@@ -22,3 +22,5 @@ Also shows use of various flow commands such as `if` , `elif`.
 
 [6-pine_tree.py](./6-pine_tree.py): This code prints a pictorial pine tree using the `#` symbol.
 It shows how to manipulate end of lines and spaces and new lines.
+
+[7-string_manipulators](./7-string_manipulators.py): This conatains a hand full of funtions to manipulate strings.
