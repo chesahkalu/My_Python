@@ -7,3 +7,6 @@
 ## Tasks
 [1-yourname.py](./1-yourname.py) : This contains codes describing the various string inputs and outputs,include formats and cast
 on basic printing function rules.
+[2-index_slicing.py](./2-index_slicing.py) This provides some of the basic rules on indexing and slicing, through basic string variable,
+which also works for lists
+
