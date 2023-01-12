@@ -15,6 +15,10 @@ which also works for lists.
 use of the input function on run, and split funtions during input.
 Also shows use of various flow commands such as `if` , `elif`.
 
-[4-fizzbuzz.py](./4-fizzbuzz.py): THe almighty fizzbuzz. Shows how to lop through a range of numbers and uses flow command to print either
-Fizz if the number is a multiple of 3, Buzz if it is a multiple of 5 and Fizzbuzz if they are multiples of both 3 and 5.
+[4-fizzbuzz.py](./4-fizzbuzz.py): The almighty fizzbuzz. Shows how to loop through a range of numbers and uses flow command to print either
+`Fizz` if the number is a multiple of `3`, `Buzz` if it is a multiple of `5` and `Fizzbuzz` if they are multiples of both `3 and 5`.
 
+[5-interest_rate.py](./5-interest_rate.py): Calculating and printing interest rate when given initial investment, rate and time.
+
+[6-pine_tree.py](./6-pine_tree.py): This code prints a pictorial pine tree using the `#` symbol.
+It shows how to manipulate end of lines and spaces and new lines.
