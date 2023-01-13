@@ -25,6 +25,8 @@ It shows how to manipulate end of lines,spaces and new lines.
 
 [7-string_manipulators.py](./7-string_manipulators.py): This conatains a handfull of functions to manipulate strings.
 
-[8-random_list.py](./8-random_list.py): This shows usage of the python random function in creating a random listt of integers.
+[8-random_list.py](./8-random_list.py): This shows usage of the python `random` function in creating a random list of integers.
 
-[9-print_ranging.py](./9-print_ranging.py): The range function and how it is used.
+[9-print_ranging.py](./9-print_ranging.py): The `range` function and how it is used.
+
+[10-loop_brk_cnt.py](./10-loop_brk_cnt.py): Some code showing the `while true` loop function, including `break` and `continue`
