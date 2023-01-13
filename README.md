@@ -5,7 +5,7 @@
 - This README will contain a basic decription of the code content of each file.
 - In each file will contain comments like notes  stating the basic description and reason of functions,algorithms and syntax.
 ## Tasks
-[1-yourname.py](./1-yourname.py) : This contains codes describing the various string inputs and outputs,including basic rules on
+[1-yourname.py](./1-yourname.py) : This contains codes describing the various string inputs and outputs, including basic rules on
 formating and casting while using `print` functions.
 
 [2-index_slicing.py](./2-index_slicing.py) : This provides some of the basic rules on indexing and slicing through basic string variable,
