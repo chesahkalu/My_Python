@@ -23,6 +23,8 @@ Also shows use of various flow commands such as `if` , `elif`.
 [6-pine_tree.py](./6-pine_tree.py): This code prints a pictorial pine tree using the `#` symbol.
 It shows how to manipulate end of lines,spaces and new lines.
 
-[7-string_manipulators](./7-string_manipulators.py): This conatains a handfull of functions to manipulate strings.
+[7-string_manipulators.py](./7-string_manipulators.py): This conatains a handfull of functions to manipulate strings.
 
-[8-random_lis](./8-random_list.py): This show usage of the python random function in creating a random listt of integers.
+[8-random_list.py](./8-random_list.py): This shows usage of the python random function in creating a random listt of integers.
+
+[9-print_ranging.py](./9-print_ranging.py): The range function and how it is used.
