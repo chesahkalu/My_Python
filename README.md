@@ -6,7 +6,7 @@
 - In each file will contain comments like notes  stating the basic description and reason of functions,algorithms and syntax.
 ## Tasks
 [1-yourname.py](./1-yourname.py) : This contains codes describing the various string inputs and outputs,including basic rules on
-formating and casting while using printing functions.
+formating and casting while using `print` functions.
 
 [2-index_slicing.py](./2-index_slicing.py) : This provides some of the basic rules on indexing and slicing through basic string variable,
 which also works for lists.
@@ -21,6 +21,8 @@ Also shows use of various flow commands such as `if` , `elif`.
 [5-interest_rate.py](./5-interest_rate.py): Calculating and printing interest rate when given initial investment, rate and time.
 
 [6-pine_tree.py](./6-pine_tree.py): This code prints a pictorial pine tree using the `#` symbol.
-It shows how to manipulate end of lines and spaces and new lines.
+It shows how to manipulate end of lines,spaces and new lines.
 
-[7-string_manipulators](./7-string_manipulators.py): This conatains a hand full of funtions to manipulate strings.
+[7-string_manipulators](./7-string_manipulators.py): This conatains a handfull of functions to manipulate strings.
+
+[8-random_lis](./8-random_list.py): This show usage of the python random function in creating a random listt of integers.
