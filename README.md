@@ -32,3 +32,5 @@ It shows how to manipulate end of lines,spaces and new lines.
 [10-loop_brk_cnt.py](./10-loop_brk_cnt.py): Some code showing the `while true` loop function, including `break` and `continue`
 
 [11-try_except.py](./11-try_except.py): shows how to use the `try except` function.
+
+[12-up_low_case.py](./12-up_low_case.py): a code that changes a give string of lowcase letters to uppecase. Intro into `ASCII` keys.
