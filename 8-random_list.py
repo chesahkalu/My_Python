@@ -6,7 +6,7 @@ import random #imports a function to create random variables
 
 randomlist=[] #creates and empty list first,
 for i in range(5): #does the code under 5 times
-	randomlist.append(random.randrange(2,50)) #append adds to the list, each random number created generated between 2-50
+	randomlist.append(random.randrange(2,50)) #append adds to the list. It adds random number generated between 2-50 with random.range
 
 for i in randomlist:
 	print(i)
