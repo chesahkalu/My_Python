@@ -10,3 +10,11 @@ str1 = 'welcome' #to assign string, or print a string always put in parenthesis
 str2 = 'to my program'
 welcome = str1 + " " + str2 + " " + 3 * "Hurray! " #strings can be concated like this
 print(welcome)
+
+love = """
+I love you so much
+please marry me
+We will live forever happy together
+"""
+
+print(name, '!' , 'you are so pretty', love)
