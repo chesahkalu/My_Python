@@ -39,5 +39,5 @@ It shows how to manipulate end of lines,spaces and new lines.
 File containing some valuable basics on various data structures like `lists`,`tuples`,`sets`,`dictionaries`
 
 
-[2-mutable_tuple.py](./Data_structures/2-mutable_tuble.py): This file contains a function that can change the value in a given index on a tuple.
+[2-mutable_tuple.py](Data_structures/2-mutable_tuple.py): This file contains a function that can change the value in a given index on a tuple.
 Normally tupples are immutable. Also are other basics of using a tuple.
