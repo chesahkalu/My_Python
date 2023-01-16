@@ -4,7 +4,7 @@
 - They are personal random tasks from different sources during my early days of learning and practicing python programming.
 - This README will contain a basic decription of the code content of each file.
 - In each file will contain comments like notes  stating the basic description and reason of functions,algorithms and syntax.
-## T
+### [beginer_basics](./beginer_basics/)
 [1-yourname.py](./1-yourname.py) : This contains codes describing the various string inputs and outputs, including basic rules on
 formating and casting while using `print` functions.
 
@@ -35,5 +35,6 @@ It shows how to manipulate end of lines,spaces and new lines.
 
 [12-up_low_case.py](./12-up_low_case.py): a code that changes a given string of lowercase letters to uppercase. Intro into `ASCII` keys.
 
-** [data_structures](./data_structures) file containing some valuable basics on various data structures like `lists`,`tuples`,`sets`,`dictionaries`
-    - [mutable_tuple.py](./mutable_tuple.py) :
+### [data_structures](./data_structures) :
+File containing some valuable basics on various data structures like `lists`,`tuples`,`sets`,`dictionaries`
+[2-mutable_tuple.py](./2-mutable_tuple.py) :
