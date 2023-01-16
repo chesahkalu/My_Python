@@ -40,4 +40,4 @@ File containing some valuable basics on various data structures like `lists`,`tu
 
 
 [2-mutable_tuple.py](./2-mutable_tuple.py): This file contains a function that can change the value in a given index on a tuple.
-Normallt tupples are inmutable. Also are other basics of using a tuple.
+Normally tupples are immutable. Also are other basics of using a tuple.

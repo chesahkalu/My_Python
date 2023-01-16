@@ -2,7 +2,7 @@
 
 #tuples are like lists but immutable,hence so many methods that work with list wont work on tuples.
 
-#tuples are inmutable, but this a function that can pass as making a tuple mutable.
+#tuples are immutable, but this a function that can pass as making a tuple mutable.
 #this function will change the value at a given index, hence changing a tuple
 #given the the tuple to change, the index and the new value to input
 def change_tuple(old,indx,cont):
