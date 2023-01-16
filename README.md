@@ -9,7 +9,7 @@
 formating and casting while using `print` functions.
 
 [2-index_slicing.py](./2-index_slicing.py) : This provides some of the basic rules on indexing and slicing through basic string variable,
-which also works for lists.
+which also works for lists. Also loop through a string as also done in a list, and concantenating new strings into.
 
 [3-simple_calculator.py](./3-simple_calculator.py): A simple calculator showing basic oprations;
 use of the input function on run, and split funtions during input.
@@ -34,3 +34,6 @@ It shows how to manipulate end of lines,spaces and new lines.
 [11-try_except.py](./11-try_except.py): shows how to use the `try except` function.
 
 [12-up_low_case.py](./12-up_low_case.py): a code that changes a given string of lowercase letters to uppercase. Intro into `ASCII` keys.
+
+- [data_structures](./data_structures) : file containing some valuable basics on various date structures like `lists`,`tuples`,`sets`,`dictionaries`
+    - [mutable_tuple.py](./mutable_tuple.py) :

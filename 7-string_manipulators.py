@@ -64,8 +64,7 @@ for word in list_of_words:
  
 print()
  
-# ---------- MORE STRING METHODS ----------
-# For our next problem some additional string methods are going to be
+# ---------- MORE STRING METHODS ---------- 
 # very useful
  
 letter_z = "z"
