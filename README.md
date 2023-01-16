@@ -35,5 +35,5 @@ It shows how to manipulate end of lines,spaces and new lines.
 
 [12-up_low_case.py](./12-up_low_case.py): a code that changes a given string of lowercase letters to uppercase. Intro into `ASCII` keys.
 
-## [data_structures](./data_structures) : file containing some valuable basics on various data structures like `lists`,`tuples`,`sets`,`dictionaries`
+** [data_structures](./data_structures) file containing some valuable basics on various data structures like `lists`,`tuples`,`sets`,`dictionaries`
     - [mutable_tuple.py](./mutable_tuple.py) :
