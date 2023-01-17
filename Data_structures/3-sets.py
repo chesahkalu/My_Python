@@ -101,6 +101,8 @@ max()	#Returns the largest item in the set.
 min()	#Returns the smallest item in the set.
 sorted()	#Returns a new sorted list from elements in the set(does not sort the set itself).
 sum()	#Returns the sum of all elements in the set.
+
+"""""
 add()	#Adds an element to the set
 clear()	#Removes all elements from the set
 copy()	#Returns a copy of the set
@@ -118,4 +120,5 @@ symmetric_difference()	#Returns the symmetric difference of two sets as a new se
 symmetric_difference_update()	#Updates a set with the symmetric difference of itself and another
 union()	#Returns the union of sets in a new set
 update()	#Updates the set with the union of itself and others
+"""
 
