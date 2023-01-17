@@ -2,6 +2,7 @@
 #parts of strings can be picked up like arrays
 word = ('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
 print(word)
+print('word is a ', type(word), ' type')
 print(word[2:9])#When we slice lists, the first figure goes for the value at the index, the start index is inclusive but the end index is exclusive.
 print(word[:1])
 print(word[:0])#empty space is printed
@@ -18,7 +19,7 @@ print(word_c)
 
 num=('123456789')
 
-word_num = '' #creates an empty string, other data structures and types can be created like this empty
+word_num = '' #creates an empty string,some other data structures and types can be created like this empty
 
 for i in word:
     word_num = word_num + i
