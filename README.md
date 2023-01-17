@@ -38,6 +38,10 @@ It shows how to manipulate end of lines,spaces and new lines.
 ## [Data_structures](./Data_structures/) :
 File containing some valuable basics on various data structures like `lists`,`tuples`,`sets`,`dictionaries`
 
+[1-list.py](./Data_structures/1-lists.py): This file contains some detailed commeents on lissts, its methods and usage.
 
 [2-mutable_tuple.py](./Data_structures/2-mutable_tuple.py): This file contains a function that can change the value in a given index in a tuple.
 Normally tupples are immutable. Also are other basics of using a tuple.
+
+[3-set.py](./Data_structures/3-sets.py): This file contains codes describing the use of set data structures as well as most of its functions and methods.
+
