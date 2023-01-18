@@ -13,7 +13,6 @@ except: #if it doesnt work, meaning an exception error occured, meaning we put i
 #then a code generated according to the exception.
 
 try:
-    
     even_numbers = [2,4,6,8]
     print(even_numbers[5])
 
@@ -22,4 +21,14 @@ except ZeroDivisionError:
     
 except IndexError:
     print("Index Out of Bound.")#this will be executed as there is an index error, because there is no index 5
+
+    #An Else block can be included to execute if no exceptions errors
+try:
+    num = int(input("Enter a number: "))
+    assert num % 2 == 0 #assert key word checks if code returns true, if not an exception error called AssertionError is raised
+except:
+    print("Not an even number!")
+else:   #if no errors the below code executes
+    reciprocal = 1/num
+    print(reciprocal)
 
