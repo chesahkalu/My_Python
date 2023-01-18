@@ -38,6 +38,9 @@ It shows how to manipulate end of lines,spaces and new lines.
 
 [13-ascii.py](./Beginer_basics/13-ascii.py): some basics about using the ascii keys in string manipulations on python.
 
+[14-cipher](./Beginer_basics/14-cipher.py): This is a function that takes in a given message, and ciphers it to a hidden massage by moving each letter a number
+of places ahead. The number of places to be moved becomes the key. ie: if key is 1, letter A becomes letter B.
+
 
 ## [Data_structures](./Data_structures/) :
 File containing some valuable basics on various data structures like `lists`,`tuples`,`sets`,`dictionaries`
