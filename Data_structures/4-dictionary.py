@@ -49,6 +49,42 @@ values()	Returns a new object of the dictionary's values
 
 """
 
+#a function def roman_to_int(roman_string): that converts a Roman numeral between 1 to 3999 to an integer
+def roman_to_int(roman_string):
+    roman_dict = {'I':1, 'V':5, 'X':10, 'L':50, 'C':100, 'D':500, 'M':1000}
+    result = 0
+    for i in range(len(roman_string)):
+        if i > 0 and roman_dict[roman_string[i]] > roman_dict[roman_string[i - 1]]:
+            result += roman_dict[roman_string[i]] - 2 * roman_dict[roman_string[i - 1]]
+        else:
+            result += roman_dict[roman_string[i]]
+    return result
+
+#a function that returns a key with the biggest integer value.
+def best_score(a_dictionary):
+    if a_dictionary is None:
+        return None
+
+    b_score = max(a_dictionary.values(), default=None)
+    for k, v in a_dictionary.items():
+        if v == b_score:
+            return k
+
+#a function that prints a dictionary by ordered keys.
+def print_sorted_dictionary(a_dictionary):
+    sorted_dictionary = sorted(a_dictionary.items())
+
+    for k, v in sorted_dictionary:
+        print('{0}: {1}'.format(k, v))
+
+#a function that returns a new dictionary with all values multiplied by 2
+def multiply_by_2(a_dictionary):
+    b_dictionary = a_dictionary.copy()
+
+    for k, v in b_dictionary.items():
+        b_dictionary[k] = v * 2
+
+    return b_dictionary
 
 
 
