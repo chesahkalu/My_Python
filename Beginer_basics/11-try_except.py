@@ -31,4 +31,9 @@ except:
 else:   #if no errors the below code executes
     reciprocal = 1/num
     print(reciprocal)
+finally:
+    print("This is finally block.")#the finally block is optional, but always executed no matter whether there is an exception or not.
+
+#there is more to exceptions, where exceptions are custonized and created for a specific code block or functions...
+#this needs an understanding of python classes and OOP
 
