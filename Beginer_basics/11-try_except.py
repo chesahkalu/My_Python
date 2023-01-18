@@ -6,4 +6,20 @@
 try: #tries the code
     number = int(input("please enter only a number: ")) #this can only convert a string in number format to int. it cant convert a char string to int
 except: #if it doesnt work, meaning an exception error occured, meaning we put in a string that isnt a number
-    print('That is not a number: ') #executes this code
+    print('That is not a number') #executes this code, the code is skipped if no errors 
+
+
+#we cant be sure the exception error occuring was because it isnt an int inputed. Hence different inbuilt python exceptions can be checked.
+#then a code generated according to the exception.
+
+try:
+    
+    even_numbers = [2,4,6,8]
+    print(even_numbers[5])
+
+except ZeroDivisionError:
+    print("Denominator cannot be 0.")#this wont be printed as the ZeroDivisionError didnt occur
+    
+except IndexError:
+    print("Index Out of Bound.")#this will be executed as there is an index error, because there is no index 5
+
