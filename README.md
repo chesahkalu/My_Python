@@ -49,3 +49,5 @@ Normally tupples are immutable. Also are other basics of using a tuple.
 
 [3-set.py](./Data_structures/3-sets.py): This file contains codes describing the use of set data structures as well as most of its functions and methods.
 
+[4-dictionary](./Data_structures/4-dictionary.py): file containing some codes on python dictionaries, with some functions created using dictionary
+data structures
