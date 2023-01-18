@@ -15,3 +15,6 @@ print()
 #in reverse
 for i in range(10, 0, -1):
 	print(i, end=' ')
+
+for i in reversed(range(1,10,2)):
+	print(i)
