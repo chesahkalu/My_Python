@@ -55,4 +55,4 @@ Normally tupples are immutable. Also are other basics of using a tuple.
 [4-dictionary](./Data_structures/4-dictionary.py): file containing some codes on python dictionaries, with some functions created using dictionary
 data structures
 
-[5-pallindrom.py](./Data_structures/5-palindrome.py): This is a function that checks if a string is is thee same if read backwards(palindrome)
+[5-pallindrom.py](./Data_structures/5-palindrome.py): This is a function that checks if a string is the same if read backwards(palindrome)
