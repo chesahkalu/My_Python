@@ -19,7 +19,7 @@ class Users: #A class of users is created, with the class title ALWAYS STARTING 
     The attribute values are left empty so that creating objects are still possible without assigning 
     values w=to them already"""
 
-user1 = Users() #now an object is created, by giving it a name and telling the program it is and instance if the class
+user1 = Users() #now an object is created, by giving it a name and telling the program it is an instance of the class
 
 user1.name = 'Andrew'
 user1.age = 20 #objects are assigned some attributes, which are now the objects fields. With their DATA values.
