@@ -24,4 +24,6 @@ user1 = Users() #now an object is created, by giving it a name and telling the p
 user1.name = 'Andrew'
 user1.age = 20 #objects are assigned some attributes, which are now the objects fields. With their DATA values.
 
+print(f'I am {user1.name} and i am {user1.age} old')
+
 
