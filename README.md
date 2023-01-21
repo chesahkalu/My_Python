@@ -61,3 +61,5 @@ data structures
 File containing basics and codes on Object Oriented Programming. This is one of the most powerful methods of programming. Understanding OOP is encouraged to
 become good at programming and Data manipulations. Taking time to understand, recall and practice all the principles and fundamentals of this programming style
 is highly adviced.
+
+[1-classes.py](./OOP_Objects_Classes/1-classes.py) : file containing various basics about classes its contents and its various attributes.
