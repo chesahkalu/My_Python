@@ -2,13 +2,13 @@
 
 #classes could be seen as a holder of objects(instances) with related datas(attributes) and functions(methods).
 #This classes can be uploaded with so many much datas and functions, and the functions can do so many powerful things with the datas.
-#This is the heartline of programming. 
+#This is the heartline of programming in python
 #Also,there are various class features that will help in making classes a more powerful tool in data manipulations, efficacy and usage.
 
 class Users: #A class of users is created, with the class title ALWAYS STARTING WITH CAPITAL LETTERS, and most have a line below(use `pass` if no code yet)
     """This is a class of users, with this we will slowly create a basic,
     but proper class of users with various attributes and methods.
-    We will also try to perform multiple features on this classes to see the """#this is called Docstrings, a form of very important documentations about your classes.
+    We will also try to perform multiple features on this classes """#this is called Docstrings, a form of very important documentations about parts of your classes.
 
     name = ''
     age = 0
@@ -17,7 +17,7 @@ class Users: #A class of users is created, with the class title ALWAYS STARTING 
     """This are the class attributes that will be assinged to objects.
     More attributes can be added to objects, in various ways. Even while creating the objects.
     The attribute values are left empty so that creating objects are still possible without assigning 
-    values w=to them already"""
+    values to them already"""
     
         
 
@@ -36,19 +36,16 @@ class Users: #A class of users is created, with the class title ALWAYS STARTING 
 
 
 
-user1 = Users() #now an object is created, by giving it a name and telling the program it is an instance of the class
-
-user1.name = 'Andrew'
-user1.age = 20
-user1.height = 165 #objects are assigned some attributes, which are now the objects fields. With their DATA values.
+#user1 = Users()         #now an object is created, by giving it a name and telling the program it is an instance of the class
+#user1.name = 'Andrew'
+#user1.age = 20
+#user1.height = 165    #objects are assigned some attributes, which are now the objects fields. With their DATA values.
+"""The above is the basic way to create and asign fields data to the attributes of the object.
+This method wont work again as an init function has been created and the data must be assigned
+to the object during initialization,so it is commented out.see below"""
 
 user2 = Users("Banarbas", 23, 180) #a second object is created and with the init function the attributes are asigned and initialized to the object during creation.
-
-print(user1.name, '&' , user1.age)
+user1 = Users('Andrew', 20, 165) #the first object created again with the init funtion.
 
 user1.say_who()#a method is assigned to an object in the class. Method is run and uses the arguments of the object because self was used in creating the arguments.
 user2.say_who()
-
-
-
-
