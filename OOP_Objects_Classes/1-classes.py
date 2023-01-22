@@ -19,11 +19,25 @@ class Users: #A class of users is created, with the class title ALWAYS STARTING 
     The attribute values are left empty so that creating objects are still possible without assigning 
     values w=to them already"""
 
+    def say_who(self):
+        print(f'I am {self.name} and i am {self.age} years old')
+    """This is a function(Method), the (self) is used to make refrence to the object using the function,
+    when an object calls the function, it uses the attribute data assigned to the self of that object,
+    It uses the variables of the objects it was run with."""
+
+    def __init__(self, name, age, height):
+
+
+
 user1 = Users() #now an object is created, by giving it a name and telling the program it is an instance of the class
 
 user1.name = 'Andrew'
 user1.age = 20 #objects are assigned some attributes, which are now the objects fields. With their DATA values.
 
-print(f'I am {user1.name} and i am {user1.age} years old')
+print(user1.name, '&' , user1.age)
+
+user1.say_who()#a method is assigned to an object in the class. Method is run and uses the arguments of the object because self was used in creating the arguments.
+
+
 
 
