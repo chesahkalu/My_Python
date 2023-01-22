@@ -62,4 +62,5 @@ File containing basics and codes on Object Oriented Programming. This is one of 
 become good at programming and Data manipulations. Taking time to understand, recall and practice all the principles and fundamentals of this programming style
 is highly adviced.
 
-[1-classes.py](./OOP_Objects_Classes/1-classes.py) : file containing various basics about classes its contents and its various attributes.
+[1-classes.py](./OOP_Objects_Classes/1-classes.py) : file containing various basics about classes its contents and its various attributes. This codes contains
+lots of comment which might come in handy to better understand Classes
