@@ -65,4 +65,6 @@ is highly adviced.
 [1-classes.py](./OOP_Objects_Classes/1-classes.py): file containing various basics about classes its contents and its various attributes. This codes contains
 lots of comment which might come in handy to better understand Classes
 
-[2-getters_setters](./OOP_Objects_Classes/2-getters_setters.py):
+[2-getters_setters](./OOP_Objects_Classes/2-getters_setters.py): getters and setters are methods in python encapsulation. Encapsulation is basical bonding datas
+and methods of the data as a single unit.eg- A Class. This datas and methods can be set to either public or private. And getters and setters are used to access the
+datas and change the data respectively if they are set to private.
