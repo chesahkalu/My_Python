@@ -16,7 +16,38 @@ class Rectangles:
     @property #this is a function used to get the private attribute data of the refered object(property).it creates and return the property of the object
     def length(self):
         return self.__length
-        """this is the getter funtion, that gets the length value and the two underscores return them as private data"""
+        """this is the getter function, that gets the length value and the two underscores return them as private data
+        there returning __length"""
+
+    @length.setter #the function to change the length attribute while raising some errors if the change isnt in a required form
+    def length(self, value):
+        """length is set, and value is created to assing to length"""
+
+        if type(value) is not int:
+            raise TypeError("size must be an integer")
+        elif value < 0:
+            raise ValueError("size must be >= 0")
+            """value are given conditions to meet when being set, else errors are raise, if no conditions are required,
+            then self's length is just assigned as the data assigned to value, hence data is changed and set"""
+        else:
+            self._length = value
+
+    #we should go ahead to properly encapsulate other attibutes in this class with getters and setters
+
+    @property
+    def width(self):
+        return self.__width
+
+    @width.setter
+    def width(self, value):
+        if type(value) is not int:
+            raise TypeError("size must be an integer")
+        elif value < 0:
+            raise ValueError("size must be a positive number")
+        else:
+            self.__width = value
+
+
 
 
 
