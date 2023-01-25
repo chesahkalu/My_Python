@@ -14,7 +14,7 @@ class Users: #A class of users is created, with the class title ALWAYS STARTING 
     age = 0
     id_no = ''
     height = 0
-    """This are the class attributes(variables) that will be assinged to objects.
+    """This are the class (variables) that will be assinged to objects(instance)
     More attributes can be added to objects, in various ways. Even while creating the objects.
     The attribute values are left empty so that creating objects are still possible without assigning 
     values to them already"""
@@ -39,8 +39,8 @@ class Users: #A class of users is created, with the class title ALWAYS STARTING 
 user1 = Users()         #now an object is created, by giving it a name and telling the program it is an instance of the class
 user1.name = 'Andrew'
 user1.age = 20
-user1.height = 169    #objects are assigned some attributes, which are now the objects fields. Which are Instace variables.
-"""The above is the basic way to create and asign fields data to the attributes of the object."""
+user1.height = 169    #objects are assigned some attributes, which are now the objects fields. Which are Instance variables.
+"""The above is the basic way to create and asign fields data to the attributes of the object. Creating instance varioables."""
 
 user2 = Users("Banarbas", 23, 180) #a second object is created and with the init function the attributes are asigned and initialized to the object during creation.
 
