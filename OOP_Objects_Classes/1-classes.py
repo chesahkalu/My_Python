@@ -14,8 +14,9 @@ class Users: #A class of users is created, with the class title ALWAYS STARTING 
     age = 0
     id_no = ''
     height = 0
-    """This are the class (variables) that will be assinged to objects(instance)
-    More attributes can be added to objects, in various ways. Even while creating the objects.
+    company = "Amazon"
+    """This are the class (variables) that can be assinged to objects(instance), and also use as a
+    general class variable.More attributes can be added to objects, in various ways. Even while creating the objects.
     The attribute values are left empty so that creating objects are still possible without assigning 
     values to them already"""
     
@@ -46,3 +47,4 @@ user2 = Users("Banarbas", 23, 180) #a second object is created and with the init
 
 user1.say_who()#a method is assigned to an object in the class. Method is run and uses the arguments of the object because self was used in creating the arguments.
 user2.say_who()
+print(Users.company)
