@@ -2,7 +2,7 @@
 #parts of strings can be picked up like arrays
 word = ('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
 print(word)
-print('word is a ', type(word), ' type')
+print('word is a ', type(word), ' type')#type function can be used to find the data type of any data,
 print(word[2:9])#When we slice lists, the first figure goes for the value at the index, the start index is inclusive but the end index is exclusive.
 print(word[:1])
 print(word[:0])#empty space is printed

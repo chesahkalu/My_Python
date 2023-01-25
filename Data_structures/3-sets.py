@@ -20,7 +20,7 @@ print('Intersection using intersection():', A.intersection(B))
 print('Difference using &:', A - B)#return the datas in A that is not in B.
 print('Difference using difference():', A.difference(B)) 
 
-print('using ^:', A ^ B)#return data not in both sets
+print('using ^:', A ^ B)#return data not in both sets, but in either of each
 print('using symmetric_difference():', A.symmetric_difference(B)) 
 
 

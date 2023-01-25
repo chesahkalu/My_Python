@@ -47,6 +47,8 @@ class Rectangles:
         else:
             self.__width = value
 
+#classe created. Attributes created and encapsulated with getters and setters.Now is time to create some objects and methods.
+
 
 
 

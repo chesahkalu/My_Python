@@ -14,7 +14,7 @@ class Users: #A class of users is created, with the class title ALWAYS STARTING 
     age = 0
     id_no = ''
     height = 0
-    """This are the class attributes that will be assinged to objects.
+    """This are the class attributes(variables) that will be assinged to objects.
     More attributes can be added to objects, in various ways. Even while creating the objects.
     The attribute values are left empty so that creating objects are still possible without assigning 
     values to them already"""
@@ -27,7 +27,7 @@ class Users: #A class of users is created, with the class title ALWAYS STARTING 
     when an object calls the function, it uses the attribute data assigned to the self of that object,
     It uses the variables of the objects it was run with."""
 
-    def __init__(self, name, age, height):
+    def __init__(self, name='', age=0, height=0):
         self.name = name #the values in the function arguments are stored to the fields in the attribute(of the object when created )
         self.age = age
         self.height = height
@@ -36,16 +36,13 @@ class Users: #A class of users is created, with the class title ALWAYS STARTING 
 
 
 
-#user1 = Users()         #now an object is created, by giving it a name and telling the program it is an instance of the class
-#user1.name = 'Andrew'
-#user1.age = 20
-#user1.height = 165    #objects are assigned some attributes, which are now the objects fields. With their DATA values.
-"""The above is the basic way to create and asign fields data to the attributes of the object.
-This method wont work again as an init function has been created and the data must be assigned
-to the object during initialization,so it is commented out.see below"""
+user1 = Users()         #now an object is created, by giving it a name and telling the program it is an instance of the class
+user1.name = 'Andrew'
+user1.age = 20
+user1.height = 169    #objects are assigned some attributes, which are now the objects fields. Which are Instace variables.
+"""The above is the basic way to create and asign fields data to the attributes of the object."""
 
 user2 = Users("Banarbas", 23, 180) #a second object is created and with the init function the attributes are asigned and initialized to the object during creation.
-user1 = Users('Andrew', 20, 165) #the first object created again with the init funtion.
 
 user1.say_who()#a method is assigned to an object in the class. Method is run and uses the arguments of the object because self was used in creating the arguments.
 user2.say_who()
