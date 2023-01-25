@@ -31,7 +31,8 @@ class Users: #A class of users is created, with the class title ALWAYS STARTING 
     @classmethod
     def company_dept(cls):
         pass
-    """This is a class method, and how it is created"""
+    """This is a class method, and how it is created. It can be used to modify a class variableas well as used as
+    alternative constructors, ie multiples ways of creating objects"""
 
 
     def __init__(self, name='', age=0, height=0):
