@@ -32,7 +32,16 @@ class Users: #A class of users is created, with the class title ALWAYS STARTING 
     def company_dept(cls):
         pass
     """This is a class method, and how it is created. It can be used to modify a class variableas well as used as
-    alternative constructors, ie multiples ways of creating objects"""
+    alternative constructors, ie multiples ways of creating objects """
+
+    @staticmethod
+    def is_workday(day):
+        if day.weekday() == 5 or day.weekday() == 6:
+            return False
+        return True
+    """The static method is a stand alone method that doesnt take an instance or class as the first argument, a static
+    method is just like any normal function but has something to do in our class. This is a method that checks if a day
+    is a weekday in python"""
 
 
     def __init__(self, name='', age=0, height=0):
