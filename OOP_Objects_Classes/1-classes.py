@@ -29,8 +29,10 @@ class Users: #A class of users is created, with the class title ALWAYS STARTING 
     It uses the variables of the objects it was run with. This makes this an instance method """
 
     @classmethod
-    def company_dept(cls, dept):
+    def company_dept(cls):
         pass
+    """This is a class method, and how it is created"""
+
 
     def __init__(self, name='', age=0, height=0):
         self.name = name #the values in the function arguments are stored to the fields in the attribute(of the object when created )
@@ -51,6 +53,6 @@ user2 = Users("Banarbas", 23, 180) #a second object is created and with the init
 
 user1.say_who()#a method is assigned to an object in the class. Method is run and uses the arguments of the object because self was used in creating the arguments.
 user2.say_who()
-print(Users.company)
-Users.company = "Tesla"
+print(Users.company) #class variable
+Users.company = "Tesla" #class variable changed
 print(Users.company)
