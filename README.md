@@ -30,7 +30,7 @@ It shows how to manipulate end of lines,spaces and new lines.
 
 [9-print_ranging.py](./Beginer_basics/9-print_ranging.py): The `range` function and how it is used.
 
-[10-loop_brk_cnt.py](./Beginer_basics/10-loop_brk_cnt.py): Some code showing the `while true` loop function, including `break` and `continue`
+[10-loop_brk_cnt.py](./Beginer_basics/10-loop_brk_cnt.py): Some code showing the `while true` loop function, including `break` and `continue`.
 
 [11-try_except.py](./Beginer_basics/11-try_except.py): shows how to use the `try except` function.
 
@@ -53,9 +53,9 @@ Normally tupples are immutable. Also are other basics of using a tuple.
 [3-set.py](./Data_structures/3-sets.py): This file contains codes describing the use of set data structures as well as most of its functions and methods.
 
 [4-dictionary](./Data_structures/4-dictionary.py): file containing some codes on python dictionaries, with some functions created using dictionary
-data structures
+data structures.
 
-[5-pallindrom.py](./Data_structures/5-palindrome.py): This is a function that checks if a string is the same if read backwards(palindrome)
+[5-pallindrom.py](./Data_structures/5-palindrome.py): This is a function that checks if a string is the same if read backwards(palindrome).
 
 ## [OOP_Objects_Classes](./OOP_Objects_Classes/) : 
 File containing basics and codes on Object Oriented Programming. This is one of the most powerful methods of programming. Understanding OOP is encouraged to
@@ -63,7 +63,7 @@ become good at programming and Data manipulations. Taking time to understand, re
 is highly adviced.
 
 [1-classes.py](./OOP_Objects_Classes/1-classes.py): file containing various basics about classes its contents and its various attributes. This codes contains
-lots of comment which might come in handy to better understand Classes
+lots of comment which might come in handy to better understand Classes.
 
 [2-getters_setters](./OOP_Objects_Classes/2-getters_setters.py): getters and setters are methods in python encapsulation. Encapsulation is basical bonding datas
 and methods of the data as a single unit.eg- A Class. This datas and methods can be set to either public or private. And getters and setters are used to access the
