@@ -67,27 +67,17 @@ print(rec1.perimeter())
 print(rec2.area())
 print(rec2.perimeter())
 
-def __draw_rectangle(self):
+def __str__(self):
+        """Return the printable representation of the Rectangle.
+
+        Represents the rectangle with the # character.
         """
-        Draw the Rectangle with their size
-        Returns:
-            str: `Empty` If width or height is `0`,
-            otherwise returns a string with the Rectangle.
-        """
+        if self.__width == 0 or self.__height == 0:
+            return ("")
 
-        rect_str = ''
-        w = self.__width
-        h = self.__height
-
-        if w == 0 or h == 0:
-            return rect_str
-
-        for i in range(h):
-            for j in range(w):
-                rect_str += '#'
-
-            if i != h - 1:
-                rect_str += '\n'
-
-        return rect_str
-print(str(rec1))
+        rect = []
+        for i in range(self.__height):
+            [rect.append('#') for j in range(self.__width)]
+            if i != self.__height - 1:
+                rect.append("\n")
+        return ("".join(rect))
