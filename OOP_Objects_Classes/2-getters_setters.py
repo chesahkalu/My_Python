@@ -66,3 +66,28 @@ print(rec1.area())
 print(rec1.perimeter())
 print(rec2.area())
 print(rec2.perimeter())
+
+def __draw_rectangle(self):
+        """
+        Draw the Rectangle with their size
+        Returns:
+            str: `Empty` If width or height is `0`,
+            otherwise returns a string with the Rectangle.
+        """
+
+        rect_str = ''
+        w = self.__width
+        h = self.__height
+
+        if w == 0 or h == 0:
+            return rect_str
+
+        for i in range(h):
+            for j in range(w):
+                rect_str += '#'
+
+            if i != h - 1:
+                rect_str += '\n'
+
+        return rect_str
+print(str(rec1))
