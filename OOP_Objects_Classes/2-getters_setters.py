@@ -60,14 +60,7 @@ class Rectangles:
             return 0
         return self.__height + self.__width + self.__height + self.__width
 
-rec1 = Rectangles(8,5)
-rec2 = Rectangles(8,0)
-print(rec1.area())
-print(rec1.perimeter())
-print(rec2.area())
-print(rec2.perimeter())
-
-def __str__(self):
+    def __str__(self):
         """Return the printable representation of the Rectangle.
 
         Represents the rectangle with the # character.
@@ -81,3 +74,5 @@ def __str__(self):
             if i != self.__height - 1:
                 rect.append("\n")
         return ("".join(rect))
+
+        
