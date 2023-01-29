@@ -31,8 +31,7 @@ class Rectangles:
             then self's length is just assigned as the data assigned to value, hence data is changed and set"""
         else:
             self.__height = value
-            """Now the only way to change the private data is with the set function. Using the inittialization function at object creation
-            will cause an error"""
+            """Now the only way to change the private data is with the set function"""
 
     #we should go ahead to properly encapsulate other attibutes in this class with getters and setters
 
