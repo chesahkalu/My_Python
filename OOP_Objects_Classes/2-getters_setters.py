@@ -60,11 +60,13 @@ class Rectangles:
             return 0
         return self.__height + self.__width + self.__height + self.__width
 
-    def __str__(self):
-        """Return the printable representation of the Rectangle.
-
-        Represents the rectangle with the # character.
-        """
+    def __str__(self): #this function is called and a method written under it to create a printable representation of the object.
+        """the return value of the function is what prints to the screen if the object is called with a orint function. This could be as simple as
+        return a statement that describes the objects and its attributes, or an actuall code that computes using the ojects variables.
+        The essence of this a form of a readable description of the object. This can be written as a method and called in this manner, object.method(),
+        but the __str__ funtion makes the object a printable  and the method under it can be run with a simple : print(object) or 
+        print(str(object))"""
+        
         if self.__width == 0 or self.__height == 0:
             return ("")
 
@@ -74,10 +76,18 @@ class Rectangles:
             if i != self.__height - 1:
                 rect.append("\n")
         return ("".join(rect))
+        """here we have written a __str__ magic method to return the the rectangle with # as its sides, when any of the rectangles are called, the
+        rectangle shape is printed using the # to represents the values of the width and height"""
 
-    def __repr__(self):
-        """Return the string representation of the Rectangle."""
-        rect = "Rectangle(" + str(self.__width)
-        rect += ", " + str(self.__height) + ")"
-        return (rect)
-        
+
+
+rec1 = Rectangles(8,5)
+rec2 = Rectangles(8,50)
+print(rec1.area())
+print(rec1.perimeter())
+print(rec2.area())
+print(rec2.perimeter())
+
+print(rec1)
+
+
