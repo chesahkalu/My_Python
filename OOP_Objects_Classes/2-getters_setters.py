@@ -79,11 +79,15 @@ class Rectangles:
         """here we have written a __str__ magic method to return the the rectangle with # as its sides, when any of the rectangles are called, the
         rectangle shape is printed using the # to represents the values of the width and height"""
 
-    def __repr__(self): #thid method is used to create a string reprensentation of the codes, attibutes of the object.
+    def __repr__(self): #this method is used to create a string reprensentation of the codes, attibutes of the object.
         """returns a string representation of the rectangle's details, with the class name the same and printing the
         attributes thagt match the object,like a code reprenstation. But basically when the eval() function is run on
         it, it reproduces a new object which has same attributes as the other original  """
         return "Rectangles({:d}, {:d})".format(self.__height, self.__width,)
+
+    def __del__(self):#this method adds the delete function to the class, a function that deletes an object called to it.
+        """A message can be printed a whenever any object of the Rectangles is deleted."""
+        print("Bye rectangle..." , rec1 )
     
 
 
@@ -99,3 +103,4 @@ print(str(rec2)) #establishing the output of the str method
 print(repr(rec1)) #establishing the output of the repr method
 rec3 = eval(repr(rec2))
 print(rec3)
+
