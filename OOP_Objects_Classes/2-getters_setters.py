@@ -80,9 +80,10 @@ class Rectangles:
         rectangle shape is printed using the # to represents the values of the width and height"""
 
     def __repr__(self): #thid method is used to create a string reprensentation of the codes, attibutes of the object.
-        """returns a string representation of the rectangle's details, like a code reprenstation. But basically when the eval() function is run on
+        """returns a string representation of the rectangle's details, with the class name the same and printing the
+        attributes thagt match the object,like a code reprenstation. But basically when the eval() function is run on
         it, it reproduces a new object which has same attributes as the other original  """
-        return "Rectangle({:d}, {:d})".format(self.__height, self.__width,)
+        return "Rectangles({:d}, {:d})".format(self.__height, self.__width,)
     
 
 
