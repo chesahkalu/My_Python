@@ -89,5 +89,5 @@ print(rec2.area())
 print(rec2.perimeter())
 
 print(rec1)
-
+print(str(rec2))
 
