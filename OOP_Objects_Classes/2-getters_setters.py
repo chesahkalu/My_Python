@@ -7,11 +7,18 @@ function to raise type value errors if the data change is not in accordance to t
 We are going to use the datas to to create some methods and perform some funtions"""
 
 class Rectangles:
+
+    number_of_instances = 0 #this is a class attribute that is going to be used to count object(instances) as they are created
+    print_symbol = "#"
+
+
     def __init__(self, height=0, width=0):
         self.height= height
         self.width= width
+        Rectangles.number_of_instance = Rectangles.number_of_instance + 1 #the number increases at after each object creation 
         """A class is created, initialization of attributes set for during object creation.
-        Remember the use of self, to refer to the object being used during initialization"""
+        Remember the use of self, to refer to the object being used during initialization,
+        and also the number of count is made to increase when the init function is called"""
 
     @property #this is a function used to get the private attribute data of the refered object(property).it creates and return the property of the object
     def height(self):
