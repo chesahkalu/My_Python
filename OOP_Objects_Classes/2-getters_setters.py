@@ -9,13 +9,14 @@ We are going to use the datas to to create some methods and perform some funtion
 class Rectangles:
 
     number_of_instances = 0 #this is a class attribute that is going to be used to count object(instances) as they are created
-    print_symbol = "#"
-
+    print_symbol = "$" #this attribute would be used to change the simpble used to print a string representation of an instance.
+    """class attributes are generally that of a class and can be called into methods in the class.
+    They are like global variables."""
 
     def __init__(self, height=0, width=0):
         self.height= height
         self.width= width
-        Rectangles.number_of_instance = Rectangles.number_of_instance + 1 #the number increases at after each object creation 
+        Rectangles.number_of_instances = Rectangles.number_of_instances + 1 #the number increases at after each object creation 
         """A class is created, initialization of attributes set for during object creation.
         Remember the use of self, to refer to the object being used during initialization,
         and also the number of count is made to increase when the init function is called"""
@@ -79,12 +80,12 @@ class Rectangles:
 
         rect = []
         for i in range(self.__height):
-            [rect.append('#') for j in range(self.__width)]
+            [rect.append(str(self.print_symbol)) for j in range(self.__width)]
             if i != self.__height - 1:
                 rect.append("\n")
         return ("".join(rect))
-        """here we have written a __str__ magic method to return the the rectangle with # as its sides, when any of the rectangles are called, the
-        rectangle shape is printed using the # to represents the values of the width and height"""
+        """here we have written a __str__ magic method to return the the rectangle with (whatever the print_symbol is) as its sides.
+        when any of the rectangles are called, the rectangle shape is printed using the # to represents the values of the width and height"""
 
     def __repr__(self): #this method is used to create a string reprensentation of the codes, attibutes of the object.
         """returns a string representation of the rectangle's details, with the class name the same and printing the
@@ -112,3 +113,6 @@ rec3 = eval(repr(rec2))
 rec4 = eval(repr(rec1))
 print(rec4)
 print(rec3)
+print(Rectangles.number_of_instances)
+
+del rec3
