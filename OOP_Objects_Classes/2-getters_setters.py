@@ -143,6 +143,8 @@ del rec3
 
 print(Rectangles.number_of_instances)
 
-print(Rectangles.bigger_or_equal(rec1 , rec2)) #calls and prints the static method
+print(Rectangles.bigger_or_equal(rec1 , rec2)) #calls and prints the static method result which is rec2
 
 rec5 = Rectangles.square(8) #applies the class method
+
+print(rec5)
