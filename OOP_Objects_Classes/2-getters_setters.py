@@ -87,7 +87,7 @@ class Rectangles:
 
     def __del__(self):#this method adds the delete function to the class, a function that deletes an object called to it.
         """A message can be printed a whenever any object of the Rectangles is deleted."""
-        print("Bye rectangle..." , rec1 )
+        print("Bye rectangle...")
     
 
 
@@ -102,5 +102,6 @@ print(rec1) #establishing the output of the str method
 print(str(rec2)) #establishing the output of the str method
 print(repr(rec1)) #establishing the output of the repr method
 rec3 = eval(repr(rec2))
+rec4 = eval(repr(rec1))
+print(rec4)
 print(rec3)
-
