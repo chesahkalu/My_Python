@@ -99,6 +99,28 @@ class Rectangles:
         type(self).number_of_instances -= 1
         print("Bye rectangle...")
 
+    @staticmethod
+    def bigger_or_equal(rect_1, rect_2):
+        """The static method usually stands alone as funtion. This returns the biggest rectangle based on the area, 
+        the function takes an argument of the area value of 2 rectangle objects.
+        It also confirms that each of the arguments is a object of the Rectangles type, and raise a type error if not"""
+        if type(rect_1) is not Rectangles:
+            raise TypeError("rect_1 must be an instance of Rectangle")
+        if type(rect_2) is not Rectangles:
+            raise TypeError("rect_2 must be an instance of Rectangle")
+        if rect_1.area() >= rect_2.area():
+            return rect_1
+        return rect_2
+
+    @classmethod
+    def square(cls, size=0):
+        """The class method is used toraise a funtion to work on the class.
+        This returns a new Rectangle instance that is a square equalling the height and width as same, with the size attributeh
+        height == width == size"""
+        return cls(size, size)
+        """when a new object is called , and initialized to this class, if the square class method is called with the class,
+        the method asts on the object"""
+
 
 rec1 = Rectangles(8,5)
 rec2 = Rectangles(8,50)
@@ -119,4 +141,3 @@ print(Rectangles.number_of_instances)
 
 del rec3
 
-print(Rectangles.number_of_instances)
