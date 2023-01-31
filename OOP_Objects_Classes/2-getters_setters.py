@@ -9,7 +9,7 @@ We are going to use the datas to to create some methods and perform some funtion
 class Rectangles:
 
     number_of_instances = 0 #this is a class attribute that is going to be used to count object(instances) as they are created
-    print_symbol = "$" #this attribute would be used to change the simpble used to print a string representation of an instance.
+    print_symbol = "$" #this attribute would be used to change the symbol used to print a string representation of an instance.
     """class attributes are generally that of a class and can be called into methods in the class.
     They are like global variables."""
 
@@ -94,9 +94,10 @@ class Rectangles:
         return "Rectangles({:d}, {:d})".format(self.__height, self.__width,)
 
     def __del__(self):#this method adds the delete function to the class, a function that deletes an object called to it.
-        """A message can be printed a whenever any object of the Rectangles is deleted."""
+        """A message can be printed a whenever any object of the Rectangles is deleted.
+        And the number that have been createed reduces by 1"""
+        type(self).number_of_instances -= 1
         print("Bye rectangle...")
-    
 
 
 rec1 = Rectangles(8,5)
@@ -114,5 +115,4 @@ rec4 = eval(repr(rec1))
 print(rec4)
 print(rec3)
 print(Rectangles.number_of_instances)
-
-del rec3
+print(Rectangles.number_of_instances)
