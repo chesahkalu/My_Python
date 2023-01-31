@@ -110,9 +110,13 @@ print(rec2.perimeter())
 print(rec1) #establishing the output of the str method
 print(str(rec2)) #establishing the output of the str method
 print(repr(rec1)) #establishing the output of the repr method
-rec3 = eval(repr(rec2))
+rec3 = eval(repr(rec2)) #using the eval(repr) method to clone an object
 rec4 = eval(repr(rec1))
 print(rec4)
 print(rec3)
 print(Rectangles.number_of_instances)
+print(Rectangles.number_of_instances)
+
+del rec3
+
 print(Rectangles.number_of_instances)
