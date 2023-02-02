@@ -9,7 +9,7 @@ We are going to use the datas to to create some methods and perform some funtion
 class Rectangles:
 
     number_of_instances = 0 #this is a class attribute that is going to be used to count object(instances) as they are created
-    print_symbol = "$" #this attribute would be used to change the symbol used to print a string representation of an instance.
+    print_symbol = "#" #this attribute would be used to change the symbol used to print a string representation of an instance.
     """class attributes are generally that of a class and can be called into methods in the class.
     They are like global variables."""
 
@@ -78,12 +78,9 @@ class Rectangles:
         if self.__width == 0 or self.__height == 0:
             return ("")
 
-        rect = []
-        for i in range(self.__height):
-            [rect.append(str(self.print_symbol)) for j in range(self.__width)]
-            if i != self.__height - 1:
-                rect.append("\n")
-        return ("".join(rect))
+
+        rec = ((self.print_symbol * self.__width + "\n") * self.__height)#first print the symbol width times,then next line, then does it height times
+        return rec
         """here we have written a __str__ magic method to return the the rectangle with (whatever the print_symbol is) as its sides.
         when any of the rectangles are called, the rectangle shape is printed using the # to represents the values of the width and height"""
 
@@ -134,6 +131,8 @@ print(str(rec2)) #establishing the output of the str method
 print(repr(rec1)) #establishing the output of the repr method
 rec3 = eval(repr(rec2)) #using the eval(repr) method to clone an object
 rec4 = eval(repr(rec1))
+
+Rectangles.print_symbol = "$"
 print(rec4)
 print(rec3)
 print(Rectangles.number_of_instances)
