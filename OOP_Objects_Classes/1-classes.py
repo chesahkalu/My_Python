@@ -17,8 +17,8 @@ class Users: #A class of users is created, with the class title ALWAYS STARTING 
     company = "Amazon"
     """This are the class (variables) that can be assinged to objects(instance), and also use as a
     general class variable.More attributes can be added to objects, in various ways. Even while creating the objects.
-    The attribute values are left empty so that creating objects are still possible without assigning 
-    values to them already"""
+    The attribute values are left empty so that creating objects variables are still possible without assigning 
+    values to them already, else, when a variable is createdd without a value, it will cause an error"""
     
         
 
