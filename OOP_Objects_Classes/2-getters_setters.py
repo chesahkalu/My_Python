@@ -132,7 +132,7 @@ print(repr(rec1)) #establishing the output of the repr method
 rec3 = eval(repr(rec2)) #using the eval(repr) method to clone an object
 rec4 = eval(repr(rec1))
 
-Rectangles.print_symbol = "$"
+Rectangles.print_symbol = "$"#changing print symbol
 print(rec4)
 print(rec3)
 print(Rectangles.number_of_instances)
@@ -140,8 +140,9 @@ print(Rectangles.number_of_instances)
 
 del rec3
 
-print(Rectangles.number_of_instances)
+print(Rectangles.number_of_instances) #to find out remaining instances(objects) after deleting 1
 
+Rectangles.print_symbol = "*"#changing print symbol
 print(Rectangles.bigger_or_equal(rec1 , rec2)) #calls and prints the static method result which is rec2
 
 rec5 = Rectangles.square(8) #applies the class method
