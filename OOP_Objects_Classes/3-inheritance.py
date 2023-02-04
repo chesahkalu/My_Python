@@ -22,4 +22,4 @@ class Polygon:
     def get_perimeter(self):
         perimeter = sum(self.sides)
 
-class Rectangle(Polygon):
+class Rectangle(Polygon): #this is a sub class inheriting all the attributes and methods of Polygon class
