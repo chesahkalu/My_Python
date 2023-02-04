@@ -28,7 +28,7 @@ print()
 print(newrandomlist)
 
 
-def sort_a_list(*args):
+def sort_a_list(*args): #the *arg allows a funtion to take multiple arguments when it is called, hence a number of argument isnt defined
 	list_h =[]
 	for i in args:
 		list_h.append(i)
