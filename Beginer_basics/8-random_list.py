@@ -28,4 +28,11 @@ print()
 print(newrandomlist)
 
 
- 
+def sort_a_list(*args):
+	list_h =[]
+	for i in args:
+		list_h.append(i)
+	list_h.sort()
+	print(list_h)
+
+sort_a_list(10,4,5,30,4,2,54,42,24)
