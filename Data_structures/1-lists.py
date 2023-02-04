@@ -7,7 +7,7 @@ my_list= []# empty list created
 my_list2 = ['a', 3.15, 'I love you', 45, 'peace']
 
 for i in range(10):
-    my_list.append(i)#loops through range of 5, and adds from 1 - 5 into the python list
+    my_list.append(i)#loops through range of 10, and adds from 1 - 10 into the python list
 
 print(my_list)
 print(my_list2)
@@ -48,8 +48,12 @@ index = my_list.index(3)
 count = my_list.count(2)
 
 # sort() method
-# Sorts the elements of the list in ascending order
+# Sorts the elements of the list in ascending order, and turns the list to a sorted list of itself
 my_list.sort()
+
+# sorted method
+# Returns a sorted list of my_list, leaving my list intact.
+sorted(my_list)
 
 # reverse() method
 # Reverses the order of the elements in the list
