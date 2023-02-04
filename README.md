@@ -69,3 +69,5 @@ lots of comment which might come in handy to better understand Classes.
 and methods of the data as a single unit.eg- A Class. This datas and methods can be set to either public or private. And getters and setters are used to access the
 datas and change the data respectively if they are set to private. In this code will contain various other magic methods used to make classes more powerful such as 
 __str__ and __repr__. The @staticmethod, @classmethods, __del__, and usage of class attributes in methods
+
+[3-inheritance.py](./OOP_Objects_Classes/3-inheritance.py): All about a class inheriting the methods and atttributes of another class.
