@@ -67,4 +67,5 @@ lots of comment which might come in handy to better understand Classes.
 
 [2-getters_setters](./OOP_Objects_Classes/2-getters_setters.py): getters and setters are methods in python encapsulation. Encapsulation is basical bonding datas
 and methods of the data as a single unit.eg- A Class. This datas and methods can be set to either public or private. And getters and setters are used to access the
-datas and change the data respectively if they are set to private. In this code will contain various other methods used to make classes more powerful.
+datas and change the data respectively if they are set to private. In this code will contain various other magic methods used to make classes more powerful such as 
+__str__ and __repr__. The @staticmethod, @classmethods, __del__, and usage of class attributes in methods
