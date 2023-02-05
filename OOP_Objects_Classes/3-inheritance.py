@@ -12,7 +12,7 @@ Methods can alsobe referred to by using the super() function to call on them."""
 
 class Polygon:
     def __init__(self, sides):
-        self.sides = sides #this would a list of differnt int reping the sized of diff side of the polygon
+        self.sides = sides #this would a list of differnt int reping the length of diff side of the polygon
     
     def displayinfo(self):
         print("A polygon is a two-dimensional geometric figure that has a finite number of sides,\
