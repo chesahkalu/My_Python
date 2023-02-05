@@ -5,7 +5,7 @@
 
 try: #tries the code
     number = int(input("please enter only a number: ")) #this can only convert a string in number format to int. it cant convert a char string to int
-except: #if it doesnt work, meaning an exception error occured, meaning we put in a string that isnt a number
+except: #if it doesnt work, meaning an exception(error) occured, meaning we put in a string that isnt a number
     print('That is not a number') #executes this code, the code is skipped if no errors 
 
 

@@ -16,7 +16,7 @@ class Rectangles:
     def __init__(self, height=0, width=0):
         self.height= height
         self.width= width
-        Rectangles.number_of_instances = Rectangles.number_of_instances + 1 #the number increases at after each object creation 
+        Rectangles.number_of_instances = Rectangles.number_of_instances + 1 #the number increases after each object creation(initialized)
         """A class is created, initialization of attributes set for during object creation.
         Remember the use of self, to refer to the object being used during initialization,
         and also the number of count is made to increase when the init function is called"""
@@ -68,7 +68,7 @@ class Rectangles:
             return 0
         return self.__height + self.__width + self.__height + self.__width
 
-    def __str__(self): #this method is used with code written under it to create a printable representation of the object.
+    def __str__(self): #this is a magi method. it is used with code written under it to create a printable representation of the object.
         """the return value of the function is what prints to the screen if the object is called with a orint function. This could be as simple as
         return a statement that describes the objects and its attributes, or an actuall code that computes using the ojects variables.
         The essence of this a form of a readable description of the object. This can be written as a method and called in this manner, object.method(),

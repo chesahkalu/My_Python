@@ -71,3 +71,6 @@ datas and change the data respectively if they are set to private. In this code 
 __str__ and __repr__. The @staticmethod, @classmethods, __del__, and usage of class attributes in methods
 
 [3-inheritance.py](./OOP_Objects_Classes/3-inheritance.py): All about a class inheriting the methods and atttributes of another class.
+
+## [Files_Input_Output](./Files_Input_Output/): 
+All about writing into reading , writing and appending text files in UTF-8(Unicode Transformation Format) encoding.
