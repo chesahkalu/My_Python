@@ -73,6 +73,8 @@ __str__ and __repr__. The @staticmethod, @classmethods, __del__, and usage of cl
 [3-inheritance.py](./OOP_Objects_Classes/3-inheritance.py): All about a class inheriting the methods and atttributes of another class.
 
 ## [Files_Input_Output](./Files_Input_Output/): 
-All about writing into reading , writing and appending text files in UTF-8(Unicode Transformation Format) encoding.
+All about reading , writing and appending text files in UTF-8(Unicode Transformation Format) encoding into files.
 
-[1-intput_output.py](./Files_Input_Output/1-input_output.py): Codes on basics of opeening ,writign and reading files.
+[1-intput_output.py](./Files_Input_Output/1-input_output.py): Codes on basics of opening ,reading, writing and closing files.
+
+[2-read_write.py](./Files_Input_Output/2-read_write.py): More indepth on how to write and read files. A code that will print each line, number it, state number of word, number of lenght and average word length
