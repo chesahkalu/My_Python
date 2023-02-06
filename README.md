@@ -74,3 +74,5 @@ __str__ and __repr__. The @staticmethod, @classmethods, __del__, and usage of cl
 
 ## [Files_Input_Output](./Files_Input_Output/): 
 All about writing into reading , writing and appending text files in UTF-8(Unicode Transformation Format) encoding.
+
+[1-intput_output.py](./Files_Input_Output/1-input_output.py): Codes on basics of opeening ,writign and reading files.
