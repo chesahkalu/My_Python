@@ -21,6 +21,10 @@ class Rectangles:
         Remember the use of self, to refer to the object being used during initialization,
         and also the number of count is made to increase when the init function is called"""
 
+    def to_json(self):
+        """returns a dictionary representation of a Rectangle instance"""
+        return self.__dict__
+    
     @property #this is a function used to get the private attribute data of the refered object(property).it creates and return the property of the object
     def height(self):
         return self.__height
@@ -148,3 +152,5 @@ print(Rectangles.bigger_or_equal(rec1 , rec2)) #calls and prints the static meth
 rec5 = Rectangles.square(8) #applies the class method
 
 print(rec5)
+
+print(rec1.to_json())
