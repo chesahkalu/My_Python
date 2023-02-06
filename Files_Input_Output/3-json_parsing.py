@@ -22,9 +22,16 @@ print(data) #prints dictionary of person
 
 """note ~loads~ is used toparse the json string while ~load~ is used to parse the file"""
 
+#this whole function can be done in the opposite direction>>>>>>
+
+person_dict = {'name': 'Bob','age': 12,'children': None} #a dictionary
+person_json = json.dumps(person_dict) #this turns it to a json string
+print(person_json) #prints a json string
 
 
+person_dict = {"name": "Bob", "languages": ["English", "French"], "married": True, "age": 32} # a dictionary
 
-
+with open('person.txt', 'w') as json_file: #this opens a file in writing mode
+  json.dump(person_dict, json_file) #this writes the dictionary into a file called son file in json string mode
 
 
