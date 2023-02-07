@@ -22,7 +22,8 @@ class Rectangles:
         and also the number of count is made to increase when the init function is called"""
 
     def to_json(self):
-        """returns a dictionary representation of a Rectangle instance"""
+        """returns a dictionary representation of a Rectangle instance
+        Which can be used for JSON parsing. Check JSON arsing in Files input and output"""
         return self.__dict__
     
     @property #this is a function used to get the private attribute data of the refered object(property).it creates and return the property of the object

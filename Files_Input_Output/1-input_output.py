@@ -12,6 +12,9 @@ a_file.close() #file most be closed always after open to free up reasources and 
 
 with open('file1.py', "r", encoding="utf-8") as a_file: #opens the file1.py in the read mode,in a_file,and in unicode encoding format for binary tranlastion
     content= a_file.read(10) #10 reads only the first 10 characters of the file, and if read again the first 10 wont be included
+    content= a_file.readline() #reads first avialable line, this can be used in a while loop,  
+    content= a_file.readlines() #reads all the lines from a file and returns a list of the lines, separating them from one another with commas.
+
     print(content)
     """This method ensures that the file will closee automatically no matter what"""
 
@@ -29,11 +32,19 @@ b	    Open in binary mode.
 with open('test2.txt', 'w') as file2: #a file is open in write mode, nonexistence of file causes a creation of file,
     file2.write('Python is Fun.') #this goes to first line, and also everything in the file is deleted to start this
     file2.write('Python is cool') #second line
-    file2.wirite('I love python\nI love it alot') #3rd lin, newline, 4th line
+    file2.wirite('I love python\nI love it alot') #3rd line, newline, 4th line
+    lines = ["fifth line\n", "sixth line\n", "seventh line\n"]
+    file2.writelines(lines) #writes content of the line list accordinly
+
+file2.tell() #The tell() method returns the current position of the file pointer. That is, it returns the number of bytes from the beginning of the file.
+
+file2.seek()
 
 print(file2.closed) #prints true if file2 is closed
 
 print(file2.mode) #prints the mode it was last operated with
+
+
 
 """ other methods
 Method	                    Description
