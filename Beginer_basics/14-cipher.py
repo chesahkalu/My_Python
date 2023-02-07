@@ -25,7 +25,7 @@ if __name__ == "__main__":
     """this is mostly used in files to tell the code under it to only execute when the file is run as a script
     on the comand line. Name = main means that the command line sees the name of the file as the main function(which
     is usually the first function to run). This means that the command line wants to run the codes in the file.
-    If this is not put, the codes in the file will be run when imported.
+    If this is not put, the codes in the file will be run when the file is imported on the command line or in another file.
     """
     cipher(input("Please input message to cipher : "), int(input("Please input key: ")))
 
