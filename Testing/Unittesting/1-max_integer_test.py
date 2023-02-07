@@ -1,8 +1,10 @@
 #!/usr/bin/python3
 
-"""Unittests for max_integer([..])."""
+"""Unittests for max_integer([..]).
+To test the codes,we must create another Python file in the same directory and name it as the file only
+ending it "_test.py".  or start it with "test_". """
 
-import unittest
+import unittest # first the unittest module must be imported
 max_integer = __import__('6-max_integer').max_integer
 
 
