@@ -5,7 +5,13 @@ To test the codes,we must create another Python file in the same directory and n
 ending it "_test.py".  or start it with "test_". """
 
 import unittest # first the unittest module must be imported
-max_integer = __import__('6-max_integer').max_integer
+max_integer = __import__('1-max_integer').max_integer
+"""
+this is used to import the module with the string name "1-max_integer", and then acceses the function
+called max_integer in the module. IT IS NOT SAME HING AS "import 1-max_integer as mx". The later
+imports all the module, and allows you to access a function like this : mx.max_integer().
+The former can be done like this: from 1-max_integer import max_integer.
+Remember a valid module name must not have "-".  """
 
 
 class TestMaxInteger(unittest.TestCase):
