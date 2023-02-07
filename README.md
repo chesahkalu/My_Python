@@ -80,3 +80,7 @@ All about reading , writing and appending text files in UTF-8(Unicode Transforma
 [2-read_write.py](./Files_Input_Output/2-read_write.py): More indepth on how to write and read files. A code that will print each line, number it, state number of word, number of lenght and average word length
 
 [3-json_parsing.py](./Files_Input_Output/3-json_parsing.py): JSON (JavaScript Object Notation) is a popular data format used for representing structured data. It's common to transmit and receive data between a server and web application in JSON format. Code to parse, read and write JSON in Python. Also, converting JSON to dict and pretty print it.
+
+## [Testing](./Testing/) : Testing codes to ensure they work properly and as intended.
+
+[1-unittesting.py](./OOP_Objects_Classes/1-unittesting.py): Unit tests are segments of code written to test other pieces of code, typically a single function or method, that we refer to as a unit. They are a very important part of the software development process, as they help to ensure that code works as intended and catch bugs early on
