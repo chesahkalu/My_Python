@@ -14,13 +14,13 @@ The former can be done like this: from 1-max_integer import max_integer.
 Remember a valid module name must not have "-".  """
 
 
-class TestMaxInteger(unittest.TestCase):
+class TestMaxInteger(unittest.TestCase): #creat a test class, that inherits from unittest.testcase which has multiple test asser methods.
     """Define unittests for max_integer([..])."""
 
-    def test_ordered_list(self):
+    def test_ordered_list(self): #now begin writing different tesst method which must start with "test_"
         """Test an ordered list of integers."""
         ordered = [1, 2, 3, 4]
-        self.assertEqual(max_integer(ordered), 4)
+        self.assertEqual(max_integer(ordered), 4) #
 
     def test_unordered_list(self):
         """Test an unordered list of integers."""
@@ -68,3 +68,5 @@ class TestMaxInteger(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
