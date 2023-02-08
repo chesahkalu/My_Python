@@ -85,7 +85,7 @@ class Rectangles:
         return self.__height + self.__width + self.__height + self.__width
 
     def __str__(self): #this is a magi method. it is used with code written under it to create a printable representation of the object.
-        """the return value of the function is what prints to the screen if the object is called with a orint function. This could be as simple as
+        """the return value of the function is what prints to the screen if the object is called with a print function. This could be as simple as
         return a statement that describes the objects and its attributes, or an actuall code that computes using the ojects variables.
         The essence of this a form of a readable description of the object. This can be written as a method and called in this manner, object.method(),
         but the __str__ funtion makes the object a printable  and the method under it can be run with a simple : print(object) or 
