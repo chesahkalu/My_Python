@@ -20,7 +20,7 @@ class TestMaxInteger(unittest.TestCase): #creat a test class, that inherits from
     def test_ordered_list(self): #now begin writing different tesst method which must start with "test_"
         """Test an ordered list of integers."""
         ordered = [1, 2, 3, 4]
-        self.assertEqual(max_integer(ordered), 4) #
+        self.assertEqual(max_integer(ordered), 4) # asserts that first arguments equals second argument 
 
     def test_unordered_list(self):
         """Test an unordered list of integers."""
@@ -69,4 +69,13 @@ class TestMaxInteger(unittest.TestCase): #creat a test class, that inherits from
 if __name__ == '__main__':
     unittest.main()
 
+"""
+test file is always ended this way to run the imported unitest file first, only then does our test run.
+The code line states that if this test file is sensed as main file(ie: if the file is run as a script, to run instantly),
+then the code will execute the imported unittest module first, before running the test codes.
+With out this , the test code wont just run on its own
 
+THIS CAN ALSO BE Run ON the COMMAND LINE LIKE THIS : python3 -m unittest 1-max_integer_test.py .
+This asks the  command line to go inside the 1-max_integer_test.py file, and run the unittest module 
+as main(run it first) , before executing other codes.
+"""
