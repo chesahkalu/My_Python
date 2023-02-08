@@ -116,12 +116,12 @@ class Rectangles:
 
     @classmethod
     def square(cls, size=0):
-        """The class method is used toraise a funtion to work on the class.
+        """The class method is used to raise a funtion to work on the class.
         This returns a new Rectangle instance that is a square equalling the height and width as same, with the size attributeh
         height == width == size"""
         return cls(size, size)
         """when a new object is called , and initialized to this class, if the square class method is called with the class,
-        the method asts on the object"""
+        the method acts on the object"""
 
 
 rec1 = Rectangles(8,5)

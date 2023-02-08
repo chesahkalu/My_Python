@@ -33,7 +33,7 @@ class TestMaxInteger(unittest.TestCase): #creat a test class, that inherits from
         with self.assertRaises(TypeError): # this tests to see if error would be raissed when string is made to be sorted along with ints
             max_integer(string)
 
-    def test_ordered_list(self): #now begin writing different test method which must start with "test_"
+    def test_ordered_list(self): # now begin writing different test method which must start with "test_"
         """Test an ordered list of integers."""
         ordered = [1, 2, 3, 4]
         self.assertEqual(max_integer(ordered), 4) # asserts that first arguments(which is the action of your intended code to test) equals second argument 

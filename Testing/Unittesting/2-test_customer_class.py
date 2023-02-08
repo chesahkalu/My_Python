@@ -17,7 +17,7 @@ class TestCustomer(unittest.TestCase):
     def tearDown(self): # this creates another instruction for after each test, and can be used to delete files created during testing if such testing occured
         pass
     """setUp and tearDown method can be made to run just once before all tests and once after all tests
-    respectively, bu making them a class"""
+    respectively, by making them a class method"""
 
     def test_customer_mail(self):
         self.assertEqual(self.customer_1.customer_mail, 'John.Brad@email.com')
