@@ -86,4 +86,7 @@ All about reading , writing and appending text files in UTF-8(Unicode Transforma
 * [Unittesting](./Testing/Unittesting/); Unit tests are segments of code written to test other pieces of code, typically a single function or method, that we refer to as a unit. They are a very important part of the software development process, as they help to ensure that code works as intended and catch bugs early on.Unittest uses methods created in classes to manage tests. It has support for automation, setup, and shutdown code when testing. Unittest has several rich, in-built features that are unavailable in doctest,including generators and group fixture managers like setUp and tearDown.Since unittest follows the object-oriented method,it’s more suitable for testing class-based method
     - [1-max_integer.py](./Testing/Unittesting/1-max_integer.py): This is a code for a function that takes in a list of values and sorts them , then returns the highest
     value. It should work for both integer list and string lists.
-    - [1-max_integer_test.py](./Testing/Unittesting/1-max_integer_test.py): This is a unit test file testing every possible scenario for the max_integer file codes.
+    - [1-max_integer_test.py](./Testing/Unittesting/1-max_integer_test.py): This is a unit test file testing every possible scenario for the max_integer fuction codes.
+
+    - [2-customer_class.py](./Testing/Unittesting/2-customer_class.py): This is a class of customers with some attributes and methods.
+    - [2-test_customer_class.py](./Testing/Unittesting/2-test_customer_class.py) A test file showing how to unittest a class
