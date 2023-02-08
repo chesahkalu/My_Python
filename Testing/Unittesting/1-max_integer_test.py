@@ -5,7 +5,7 @@ To test the codes,we must create another Python file in the same directory and n
 ending it "_test.py".  or start it with "test_". """
 
 import unittest # first the unittest module must be imported
-max_integer = __import__('1-max_integer').max_integer
+max_integer = __import__('1-max_integer').max_integer #then import the exact function to be tested, or class
 """
 this is used to import the module with the string name "1-max_integer", and then acceses the function
 called max_integer in the module. IT IS NOT SAME HING AS "import 1-max_integer as mx". The later
@@ -17,10 +17,26 @@ Remember a valid module name must not have "-".  """
 class TestMaxInteger(unittest.TestCase): #creat a test class, that inherits from unittest.testcase which has multiple test asser methods.
     """Define unittests for max_integer([..])."""
 
-    def test_ordered_list(self): #now begin writing different tesst method which must start with "test_"
+    def test_module_docstring(self): #now begin writing different test method which must start with "test_". Tests to see if there are doctstring in the module
+        """Tests for module docsting"""
+        m = __import__('6-max_integer').__doc__ # this is how to call or print the modules docstring
+        self.assertTrue(len(m) > 1) # uses the assert true to make ssure docstring has more than one letter.
+
+    def test_function_docstring(self): # tests to see if there are docstrings in the function
+        """Tests for funstion docstring"""
+        f = max_integer.__doc__
+        self.assertTrue(len(f) > 1)
+
+    def test_non_int_arg(self): 
+        """Tests for a non-int type in list of int"""
+        string = [1, 2, "Hello", 4, 5]
+        with self.assertRaises(TypeError): # this tests to see if error would be raissed when string is made to be sorted along with ints
+            max_integer(string)
+
+    def test_ordered_list(self): #now begin writing different test method which must start with "test_"
         """Test an ordered list of integers."""
         ordered = [1, 2, 3, 4]
-        self.assertEqual(max_integer(ordered), 4) # asserts that first arguments equals second argument 
+        self.assertEqual(max_integer(ordered), 4) # asserts that first arguments(which is the action of your intended code to test) equals second argument 
 
     def test_unordered_list(self):
         """Test an unordered list of integers."""
@@ -42,7 +58,7 @@ class TestMaxInteger(unittest.TestCase): #creat a test class, that inherits from
         one_element = [7]
         self.assertEqual(max_integer(one_element), 7)
 
-    def test_floats(self):
+    def test_floats(self): 
         """Test a list of floats."""
         floats = [1.53, 6.33, -9.123, 15.2, 6.0]
         self.assertEqual(max_integer(floats), 15.2)
