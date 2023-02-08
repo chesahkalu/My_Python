@@ -29,7 +29,7 @@ class Rectangles:
     @property #this is a function used to get the private attribute data of the refered object(property).it creates and return the property of the object
     def height(self):
         return self.__height
-        """this is the getter function, that gets the length value and the two underscores return them as private data
+        """this is the getter function, that retrieves the length value and the two underscores return them as private data
         therefore returning __length"""
 
     @height.setter #the function to change the length attribute while raising some errors if the change isnt in a required form
@@ -41,10 +41,15 @@ class Rectangles:
         elif value < 0:
             raise ValueError("height must be >= 0")
             """value are given conditions to meet when being set, else errors are raise, if no conditions are required,
-            then self's length is just assigned as the data assigned to value, hence data is changed and set"""
+            then self's length is just assigned as the data assigned to value, hence data is changed and set.
+            By using getters and setters, you can control what happens when the value of a private attribute is accessed or changed,
+            and ensure that the internal state of your objects is always in a consistent state."""
         else:
             self.__height = value
-            """Now the only way to change the private data is with the set function"""
+            """Why private attributes with getter/setter? Why not directly public attribute?
+            Because we want to protect attributes of our class. With a setter, 
+            you are able to validate what a developer is trying to assign to a variable. 
+            So after, in your class you can “trust” these attributes."""
 
     #we should go ahead to properly encapsulate other attibutes in this class with getters and setters
 
@@ -60,6 +65,12 @@ class Rectangles:
             raise ValueError("width must be >= 0")
         else:
             self.__width = value
+            """In Python, by convention, a private attribute is any attribute that starts with an underscore, 
+            like _attribute_name. These attributes are not meant to be directly accessed from outside the class, 
+            but instead are meant to be protected and used internally.
+            To access or modify a private attribute, you can use "getter" and "setter" methods. 
+            Getter methods are used to retrieve the value of a private attribute, 
+            and setter methods are used to change its value."""
 
 #classe created. Attributes created and encapsulated with getters and setters.Now is time to create some objects and methods.
 
