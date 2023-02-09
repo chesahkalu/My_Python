@@ -85,7 +85,8 @@ function with same name as the parameter excluding asterisk *. So it simply take
 def intro(**kwargs):
     for key, value in kwargs.items():
         print("{} is {}".format(key,value))
-"""kwargs on the other hand just allows us to pass multiple arguments in form of a dictionary
+"""kwargs on the other allows us to pass the variable length of keyword arguments to the function.
+It just allows us to pass multiple arguments in form of a dictionary
 of keys and values. We can use **kwargs in a method for a class to change or update attibutes 
 to an object."""
 
