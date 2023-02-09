@@ -61,6 +61,7 @@ The key shift the letters by the given number of positions.
 The usage of this function can be seen in the function file."""
 
 
+
 def adder(*num):
     sum = 0
     
@@ -78,7 +79,18 @@ def sort_a_list(*args): # the * allows a function to take multiple arguments inf
 	print(list_h)
 """we should use an asterisk * before the parameter name to pass variable length arguments.
 The arguments are passed as a tuple and these passed arguments make tuple inside the 
-function with same name as the parameter excluding asterisk *."""
+function with same name as the parameter excluding asterisk *. So it simply take an argument value into a tuple"""
+
+
+def intro(**kwargs):
+    for key, value in kwargs.items():
+        print("{} is {}".format(key,value))
+"""kwargs on the other hand just allows us to pass multiple arguments in form of a dictionary
+of keys and values. We can use **kwargs in a method for a class to change or update attibutes 
+to an object."""
+
+
+
 
 
 
@@ -123,3 +135,5 @@ if __name__ == "__main__":
     sort_a_list(4,48,39,2,3,45,43,24)
 
     print("--------------------------------")
+
+    intro(Firstname="Sita", Lastname="Sharma", Age=22, Phone=1234567890)
