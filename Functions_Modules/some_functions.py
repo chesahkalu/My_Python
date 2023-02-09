@@ -61,13 +61,24 @@ The key shift the letters by the given number of positions.
 The usage of this function can be seen in the function file."""
 
 
-def sort_a_list(*args): #the *arg allows a function to take multiple arguments when it is called, hence a number of argument isnt defined
+def adder(*num):
+    sum = 0
+    
+    for n in num:
+        sum = sum + n
+
+    print("Sum:",sum)
+
+
+def sort_a_list(*args): # the * allows a function to take multiple arguments inform of a tuple,hence a number of argument isnt defined
 	list_h =[]
 	for i in args: #when used in the function dont include the *
 		list_h.append(i)
 	list_h.sort()
 	print(list_h)
-""""""
+"""we should use an asterisk * before the parameter name to pass variable length arguments.
+The arguments are passed as a tuple and these passed arguments make tuple inside the 
+function with same name as the parameter excluding asterisk *."""
 
 
 
@@ -102,3 +113,13 @@ if __name__ == "__main__":
     print("--------------------------------")
 
     to_upper("i am very tired")
+
+    print("--------------------------------")
+
+    adder(4,48,39,2,3,45,43,24)
+
+    print("--------------------------------")
+
+    sort_a_list(4,48,39,2,3,45,43,24)
+
+    print("--------------------------------")
