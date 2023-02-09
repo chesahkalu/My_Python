@@ -29,9 +29,9 @@ def to_upper(string):
     for i in string:
         if ord(i) >= ord('a') and ord(i) <= ord('z'):#this checks if it is small letter,ord(i) being the value digits of the letter in ASCII table
             i = chr(ord(i) - 32)#This changes the digit to capital letter equivalence;Look at the ASCII table
-            print(i, end='')
+            print(i, end="")
         else:
-            print(i, end='')
+            print(i, end="")
 """defines a function that takes a string as argument, it loops throug the string, and any letter
 that is a lower case letter, it turns it to a upper casse letter"""
 
@@ -79,9 +79,15 @@ if __name__ == "__main__":
 
     print(add_int(5,10)) #add_int called and asked to print whatever it returns
 
+    print("--------------------------------")
+
     x = add_int(10,20) #return of add_int assigned to X
     print(x) # X printed
 
+    print("--------------------------------")
+
     interest_rate(10000,5,5) #interest rate called, no need to print cos printing the outputs is part of the fucntion
 
-    to_upper("i am very tired")
+    print("--------------------------------")
+
+    print(to_upper("i am very tired"))
