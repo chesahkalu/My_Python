@@ -32,6 +32,7 @@ def to_upper(string):
             print(i, end="")
         else:
             print(i, end="")
+    print("\n")
 """defines a function that takes a string as argument, it loops throug the string, and any letter
 that is a lower case letter, it turns it to a upper casse letter"""
 
@@ -54,6 +55,7 @@ def cipher(message, key):
 
         else:
             print(i, end='')
+    print("\n") 
 """this is a simple program that will code change a written massage to different letterss with a given key.
 The key shift the letters by the given number of positions.
 The usage of this function can be seen in the function file."""
@@ -90,4 +92,4 @@ if __name__ == "__main__":
 
     print("--------------------------------")
 
-    print(to_upper("i am very tired"))
+    to_upper("i am very tired")
