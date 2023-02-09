@@ -44,6 +44,19 @@ of places ahead. The number of places to be moved becomes the key. ie: if key is
 
 ## [Functions_Modules](./Functions_Modules/) : This codes show how to use functions, importing and modules.
 
+[some_functions](./Functions_Modules/some_functions.py): This contains various functions and notes on some basic rule, syntax and ways for writing a python
+function properly.
+
+[import_module](./Functions_Modules/import_module.py): This conatains codes importing the functions from [some_functions](./Functions_Modules/some_functions.py)
+The codes and comments shows how to use the import method thereby using your functions in other files.
+
+[super_class](./Functions_Modules/super_class.py): This is a file containing a parent class that woyld be imported into [sub_class](./Functions_Modules/sub_class.py).
+Simply showing that class can be imported also
+
+[sub_class](./Functions_Modules/sub_class.py): The class containing a sub class of Base class in super_class
+
+[class_import](./Functions_Modules/class_import.py): showing how class methods can imported and its attribute and methods altered
+
 
 
 ## [Data_structures](./Data_structures/) :File containing some valuable basics on various data structures like `lists`,`tuples`,`sets`,`dictionaries`
