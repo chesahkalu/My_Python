@@ -6,6 +6,7 @@
 - In each file will contain comments like notes  stating the basic description and reason of functions,algorithms and syntax.
 
 ## [Beginer_basics](./Beginer_basics/) :
+
 [1-yourname.py](./Beginer_basics/1-yourname.py) : This contains codes describing the various string inputs and outputs, including basic rules on
 formating and casting while using `print` functions.
 
@@ -41,9 +42,11 @@ It shows how to manipulate end of lines,spaces and new lines.
 [14-cipher](./Beginer_basics/14-cipher.py): This is a function that takes in a given message, and ciphers it to a hidden massage by moving each letter a number
 of places ahead. The number of places to be moved becomes the key. ie: if key is 1, letter A becomes letter B.
 
+## [Functions_Modules](./Functions_Modules/) : This codes show how to use functions, importing and modules.
 
-## [Data_structures](./Data_structures/) :
-File containing some valuable basics on various data structures like `lists`,`tuples`,`sets`,`dictionaries`
+
+
+## [Data_structures](./Data_structures/) :File containing some valuable basics on various data structures like `lists`,`tuples`,`sets`,`dictionaries`
 
 [1-list.py](./Data_structures/1-lists.py): This file contains some detailed commeents on lissts, its methods and usage.
 
@@ -57,10 +60,7 @@ data structures.
 
 [5-pallindrom.py](./Data_structures/5-palindrome.py): This is a function that checks if a string is the same if read backwards(palindrome).
 
-## [OOP_Objects_Classes](./OOP_Objects_Classes/) : 
-File containing basics and codes on Object Oriented Programming. This is one of the most powerful methods of programming. Understanding OOP is encouraged to
-become good at programming and Data manipulations. Taking time to understand, recall and practice all the principles and fundamentals of this programming style
-is highly adviced.
+## [OOP_Objects_Classes](./OOP_Objects_Classes/) : File containing basics and codes on Object Oriented Programming. This is one of the most powerful methods of programming. Understanding OOP is encouraged to become good at programming and Data manipulations. Taking time to understand, recall and practice all the principles and fundamentals of this programming style is highly adviced.
 
 [1-classes.py](./OOP_Objects_Classes/1-classes.py): file containing various basics about classes, its objects, methods and attribute. This codes contains
 lots of comment which might come in handy to better understand Classes.
@@ -72,8 +72,7 @@ __str__ and __repr__. The @staticmethod, @classmethods, __del__, and usage of cl
 
 [3-inheritance.py](./OOP_Objects_Classes/3-inheritance.py): All about a class inheriting the methods and atttributes of another class.
 
-## [Files_Input_Output](./Files_Input_Output/): 
-All about reading , writing and appending text files in UTF-8(Unicode Transformation Format) encoding into files.
+## [Files_Input_Output](./Files_Input_Output/): All about reading , writing and appending text files in UTF-8(Unicode Transformation Format) encoding into files.
 
 [1-intput_output.py](./Files_Input_Output/1-input_output.py): Codes on basics of opening ,reading, writing and closing files.
 
