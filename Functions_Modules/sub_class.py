@@ -158,6 +158,3 @@ class Rectangle(Base):
                                                        self.x, self.y,
                                                        self.width, self.height)
 
-
-r3 = Rectangle(10, 2, 0, 0, 12)
-print(r3.id)
