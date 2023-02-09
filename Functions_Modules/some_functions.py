@@ -25,6 +25,23 @@ def interest_rate(initial,rate,year):
 and calculates the total returns every year and prints it."""
 
 
+def cipher(message, key):
+    for i in message:
+        if ord(i) >= 65 and ord(i) <= 90: #checks for uppercase letter, to maintain uppercase
+            i = chr(ord(i) + key) #inputs key to cipher and move the letters in key number position
+            if ord(i) > 90: #if key ciphers above ascii valu of Z, result wont rotate to continue from A 
+                i = chr(ord(i) - 26) # Rotates to start from begining A, instead of continue to take next ASCII value
+            print(i, end='')
+        
+        elif ord(i) >= 97 and ord(i) <= 122:#checks if lowercase letter to maintain
+            i = chr(ord(i) + key)
+            if ord(i) > 122:
+                i = chr(ord(i) - 26)
+            print(i, end='')
+
+        else:
+            print(i, end='')
+
 
 
 
@@ -32,7 +49,7 @@ if __name__ == "__main__":
     """ when this particular file is executed, every code runs, including the codes using the functions.
     During this execution the system sees the name of this file as "__main__". This means that the file is
     being run like a script or on the command line.
-    
+
     when this file is imported for accessing the functions in a command line or in another file,
     the imported file is first run when the file using the function is executed.
     This means thas every code in this file will run. Meaning including the below codes which arent functions.
@@ -50,4 +67,4 @@ if __name__ == "__main__":
     x = add_int(10,20) #return of add_int assigned to X
     print(x) # X printed
 
-    interest_rate(10000,5,5) # interest rate called, no need to print cos printing the outputs is part of the fucntion
+    interest_rate(10000,5,5) #interest rate called, no need to print cos printing the outputs is part of the fucntion
