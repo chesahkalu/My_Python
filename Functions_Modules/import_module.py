@@ -16,4 +16,4 @@ print("--------------------------------")
 
 some_functions.to_upper("I am In LoVe wiTh Jesus")
 
-ex("I Love you so VERY Much")
+ex("I Love you so VERY Much", 10)
