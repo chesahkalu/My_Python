@@ -61,6 +61,15 @@ The key shift the letters by the given number of positions.
 The usage of this function can be seen in the function file."""
 
 
+def sort_a_list(*args): #the *arg allows a function to take multiple arguments when it is called, hence a number of argument isnt defined
+	list_h =[]
+	for i in args: #when used in the function dont include the *
+		list_h.append(i)
+	list_h.sort()
+	print(list_h)
+""""""
+
+
 
 if __name__ == "__main__": 
     """ when this particular file is executed, every code runs, including the codes using the functions.
