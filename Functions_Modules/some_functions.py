@@ -25,6 +25,19 @@ def interest_rate(initial,rate,year):
 and calculates the total returns every year and prints it."""
 
 
+def to_upper(string):
+    for i in string:
+        if ord(i) >= ord('a') and ord(i) <= ord('z'):#this checks if it is small letter,ord(i) being the value digits of the letter in ASCII table
+            i = chr(ord(i) - 32)#This changes the digit to capital letter equivalence;Look at the ASCII table
+            print(i, end='')
+        else:
+            print(i, end='')
+"""defines a function that takes a string as argument, it loops throug the string, and any letter
+that is a lower case letter, it turns it to a upper casse letter"""
+
+
+
+
 def cipher(message, key):
     for i in message:
         if ord(i) >= 65 and ord(i) <= 90: #checks for uppercase letter, to maintain uppercase
@@ -70,3 +83,5 @@ if __name__ == "__main__":
     print(x) # X printed
 
     interest_rate(10000,5,5) #interest rate called, no need to print cos printing the outputs is part of the fucntion
+
+    to_upper("i am very tired")
