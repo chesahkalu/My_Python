@@ -6,14 +6,14 @@ It's common to transmit and receive data between a server and web application in
 Code to parse, read and write JSON in Python. Also, converting JSON to dict and pretty print it."""
 
 """
-normally in python json existas as string
-also it can exist as a file, and to work and parse or print or convert from file to string, 
+normally in python json exists as string
+also it can exist as a file, saved with  ".json" and to work and parse or print or convert from file to string, 
 we import the json moule"""
 
 import json
 
-person = '{"name": "Bob", "languages": ["English", "French"]}' #json string(a list of dictionariesss can be seen as a list of json strings)
-person_dict = json.loads(person) #this parses the string to return a dictionary
+person = '{"name": "Bob", "languages": ["English", "French"]}' #json string(a list of dictionaries can be seen as a list of json strings)
+person_dict = json.loads(person) #this parses the string to return a dictionar, an will return a list of strings of dict if "person" is a list of dictionaries-json strings)
 print(person_dict) #prints dictionary of person
 
 with open('path_to_file/person.json', 'r') as f: #this opens a file containing json string(object)
