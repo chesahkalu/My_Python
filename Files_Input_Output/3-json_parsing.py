@@ -12,7 +12,7 @@ we import the json moule"""
 
 import json
 
-person = '{"name": "Bob", "languages": ["English", "French"]}' #json string
+person = '{"name": "Bob", "languages": ["English", "French"]}' #json string(a list of dictionariesss can be seen as a list of json strings)
 person_dict = json.loads(person) #this parses the string to return a dictionary
 print(person_dict) #prints dictionary of person
 
