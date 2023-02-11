@@ -3,7 +3,8 @@
 #this is a simple program that will code change a written massage to different letterss with a given key.
 #The key shift the letters by the given number of positions.
 #also will be writtten as a function, that can be imported in another function or used in the code.
-#the usagee of this function can be seen in the function file
+#the usagee of this function can be seen in the function file 
+
 def cipher(message, key):
     for i in message:
         if ord(i) >= 65 and ord(i) <= 90: #checks for uppercase letter, to maintain uppercase
@@ -28,5 +29,8 @@ if __name__ == "__main__":
     If this is not put, the codes in the file will be run when the file is imported on the command line or in another file.
     """
     cipher(input("Please input message to cipher : "), int(input("Please input key: ")))
+
+
+
 
     

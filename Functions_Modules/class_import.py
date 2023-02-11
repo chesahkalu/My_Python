@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-from sub_class import Rectangle
+from classes.sub_class import Rectangle
 """here a class Rectangle is imported, it can be inherited from for another class
 aswell as some of its methods and attributess manipulated from here"""
 

@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 """Defines a rectangle class."""
-from super_class import Base
+#from super_class import Base
 """Here the parent class Base is imported from super_class file"""
 
-class Rectangle(Base):
+class Rectangle():
     """Represent a rectangle."""
 
     def __init__(self, width, height, x=0, y=0, id=None):
@@ -25,7 +25,8 @@ class Rectangle(Base):
         self.height = height
         self.x = x
         self.y = y
-        super().__init__(id)
+        self.id = id
+        #super().__init__(id)
 
 
     @property
