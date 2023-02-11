@@ -15,7 +15,10 @@ import csv
 """to read a csv file with non default deimiter, the delimeter must be indicated"""
 
 with open('people.csv', 'r') as file: #opens a file name "people.csv", in read mode.
-    reader = csv.reader(file) #csv file read like this, and returns an object assigned to 'reader'. if delimeter = -, then(csv.read(file, delimeter='\t'))
+    reader = csv.reader(file) #csv file read like this, and returns an object assigned to 'reader'. 
+                              #if delimeter = \, then "csv.read(file, delimeter='\t')"
+                              #if there are space after csv file, then "csv.reader(csvfile, skipinitialspace=True)" , to remove space in read csv output
+                              #if file has qutoe on parameter and quotes to be removed then "csv.reader(file, quoting=csv.QUOTE_ALL)"
     for row in reader: # reader looped throughrow by row and printed
         print(row)
 
@@ -38,4 +41,19 @@ with open('protagonist.csv', 'w') as file:
     writer = csv.writer(file)
     writer.writerows(csv_rowlist)
     
-"""writing a """
+"""writing a csv file with a non default delimeter would be done like this"""
+
+with open('protagonist.csv', 'w') as file:
+    writer = csv.writer(file, delimiter = '\t')
+    writer.writerow(["SN", "Movie", "Protagonist"])
+    writer.writerow([1, "Lord of the Rings", "Frodo Baggins"])
+    writer.writerow([2, "Harry Potter", "Harry Potter"])
+
+"""to read csv file as a dictionary for each row, with first row as key"""
+
+with open("people.csv", 'r') as file:
+    csv_file = csv.DictReader(file)
+    for row in csv_file:
+        print(dict(row)) #the dict() method used to create dictionaries inside the for loop.
+
+"""to write """
