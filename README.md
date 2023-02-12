@@ -73,7 +73,7 @@ data structures.
 
 [5-pallindrom.py](./Data_structures/5-palindrome.py): This is a function that checks if a string is the same if read backwards(palindrome).
 
-## [OOP_Objects_Classes](./OOP_Objects_Classes/) : File containing basics and codes on Object Oriented Programming. This is one of the most powerful methods of programming. Understanding OOP is encouraged to become good at programming and Data manipulations. Taking time to understand, recall and practice all the principles and fundamentals of this programming style is highly adviced
+## [OOP_Objects_Classes](./OOP_Objects_Classes/) : File containing basics and codes on Object Oriented Programming. This is one of the most powerful methods of programming. Understanding OOP is encouraged to become good at programming and Data manipulations. Taking time to understand, recall and practice all the principles and fundamentals of this programming style is highly adviced.
 
 [1-classes.py](./OOP_Objects_Classes/1-classes.py): file containing various basics about classes, its objects, methods and attribute. This codes contains
 lots of comment which might come in handy to better understand Classes.
