@@ -90,6 +90,8 @@ It just allows us to pass multiple arguments in form of a dictionary
 of keys and values. We can use **kwargs in a method for a class to change or update attibutes 
 to an object."""
 
+def both(*args, **kwargs):
+    pass
 
 
 
