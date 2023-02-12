@@ -57,6 +57,6 @@ In the above program, we have used 4 spaces for indentation. And, the keys are s
 By the way, the default value of indent is None. And, the default value of sort_keys is False."""
 
 # This will turn the object of a class to a dictionary format that can be used in Json parsing
-# asuming person_dict was and object in a class, json_format will return a dictionary of the attributes
+# asuming person_dict was an object in a class, json_format will return a dictionary of the attributes
 
 json_format = person_dict.__dic__

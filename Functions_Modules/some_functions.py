@@ -101,7 +101,7 @@ if __name__ == "__main__":
     being run like a script or on the command line.
 
     when this file is imported for accessing the functions in a command line or in another file,
-    the imported file is first run when the file using the function is executed.
+    the imported module is first run when the file using the function is executed.
     This means thas every code in this file will run. Meaning including the below codes which arent functions.
 
     We do not want this to happen, we want only the imported file to run the above codes(the functions) in the other file(import_module).
