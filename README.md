@@ -45,8 +45,8 @@ of places ahead. The number of places to be moved becomes the key. ie: if key is
 ## [Functions_Modules](./Functions_Modules/) : This codes show how to use functions, importing and modules.Also using *args and **kwargs in [some_functions](./Functions_Modules/some_functions.py)
 
 ### [classes](./Functions_Modules/classes/) : some classes to show how sub class inherits from super class
-    - [sub_class](./Functions_Modules/classes/sub_class.py) : a sub class
-    - [super_class](./Functions_Modules/classes/super_class.py) : a super class
+- [sub_class](./Functions_Modules/classes/sub_class.py) : a sub class
+- [super_class](./Functions_Modules/classes/super_class.py) : a super class
 
 [some_functions](./Functions_Modules/some_functions.py): This contains various functions and notes on some basic rule, syntax and ways for writing a python
 function properly. 
