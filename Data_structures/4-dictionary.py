@@ -86,5 +86,8 @@ def multiply_by_2(a_dictionary):
 
     return b_dictionary
 
+y = capital_city.key()
+print(y)
+
 
 
