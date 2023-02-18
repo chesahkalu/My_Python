@@ -85,7 +85,7 @@ lots of comment which might come in handy to better understand Classes.
 [2-getters_setters](./OOP_Objects_Classes/2-getters_setters.py): getters and setters are methods in python encapsulation. Encapsulation is basical bonding datas
 and methods of the data as a single unit.eg- A Class. This datas and methods can be set to either public or private. And getters and setters are used to access the
 datas and change the data respectively if they are set to private. In this code will contain various other magic methods used to make classes more powerful such as 
-__str__ and __repr__. The @staticmethod, @classmethods, __del__, and usage of class attributes in methods
+__str__ and __repr__. The @staticmethod, @classmethods, __del__, and usage of class attributes in methods.
 
 [3-inheritance.py](./OOP_Objects_Classes/3-inheritance.py): All about a class inheriting the methods and atttributes of another class.
 
@@ -93,7 +93,7 @@ __str__ and __repr__. The @staticmethod, @classmethods, __del__, and usage of cl
 
 [1-intput_output.py](./Files_Input_Output/1-input_output.py): Codes on basics of opening ,reading, writing and closing files.
 
-[2-read_write.py](./Files_Input_Output/2-read_write.py): More indepth on how to write and read files. A code that will print each line, number it, state number of word, number of lenght and average word length
+[2-read_write.py](./Files_Input_Output/2-read_write.py): More indepth on how to write and read files. A code that will print each line, number it, state number of word, number of lenght and average word length.
 
 [3-json_parsing.py](./Files_Input_Output/3-json_parsing.py): JSON (JavaScript Object Notation) is a popular data format used for representing structured data. It's common to transmit and receive data between a server and web application in JSON format. Code to parse, read and write JSON in Python. Also, converting JSON to dict and pretty print it.
 
