@@ -1,0 +1,58 @@
+The ``2-print_name`` module
+======================
+
+Using ``print_name``
+-------------------
+
+Importing the function from the module:
+	>>> print_name = __import__("2-print_name").print_name
+
+Checking for module docstring:
+	 >>> m = __import__("2-print_name").__doc__
+	 >>> len(m) > 1
+	 True
+
+Checking for function docstring:
+	 >>> f = __import__("2-print_name").print_name.__doc__
+         >>> len(f) > 1
+         True
+
+Checking for passing None as first name:
+	 >>> print_name(None, "Hello")
+	 Traceback (most recent call last):
+         ...
+         TypeError: first_name must be a string
+
+Checking for passing None as last name:
+	 >>> print_name("Hello", None)
+	 Traceback (most recent call last):
+         ...
+         TypeError: last_name must be a string
+
+Checking for wrong type as first name:
+         >>> print_name(1, "Hello")
+         Traceback (most recent call last):
+         ...
+         TypeError: first_name must be a string
+
+Checking for wrong type as last name:
+         >>> print_name("Hello", [4])
+         Traceback (most recent call last):
+         ...
+         TypeError: last_name must be a string
+
+Checking for normal use:
+	 >>> print_name("Hello", "World")
+	 My name is Hello World
+	 >>> print_name("You know nothing", "John Snow")
+	 My name is You know nothing John Snow
+
+Checking for 1 arg:
+	 >>> print_name("Hello")
+	 My name is Hello 
+
+Checking for more than 2 args:
+	 >>> print_name("Hello", "World", "hi")
+	 Traceback (most recent call last):
+	 ...
+	 TypeError: print_name() takes from 1 to 2 positional arguments but 3 were given
