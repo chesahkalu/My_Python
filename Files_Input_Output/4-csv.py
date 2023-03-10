@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-"""CSV files store datta in a tabular form, ending file name with (.csv) example below: 
+"""CSV files store data in a tabular form, ending file name with (.csv) example below: 
 SN, Name, City
 1, Michael, New Jersey
 2, Jack, California

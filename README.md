@@ -42,27 +42,6 @@ It shows how to manipulate end of lines,spaces and new lines.
 [14-cipher](./Beginer_basics/14-cipher.py): This is a function that takes in a given message, and ciphers it to a hidden massage by moving each letter a number
 of places ahead. The number of places to be moved becomes the key. ie: if key is 1, letter A becomes letter B.
 
-## [Functions_Modules](./Functions_Modules/) : This codes show how to use functions, importing and modules.Also using *args and **kwargs in [some_functions](./Functions_Modules/some_functions.py)
-
-### [classes](./Functions_Modules/classes/) : some classes to show how sub class inherits from super class
-- [sub_class](./Functions_Modules/classes/sub_class.py) : a sub class
-- [super_class](./Functions_Modules/classes/super_class.py) : a super class
-
-[some_functions](./Functions_Modules/some_functions.py): This contains various functions and notes on some basic rule, syntax and ways for writing a python
-function properly. 
-
-[import_module](./Functions_Modules/import_module.py): This conatains codes importing the functions from [some_functions](./Functions_Modules/some_functions.py)
-The codes and comments shows how to use the import method thereby using your functions in other files.
-
-[super_class](./Functions_Modules/super_class.py): This is a file containing a parent class that woyld be imported into [sub_class](./Functions_Modules/sub_class.py).
-Simply showing that class can be imported also
-
-[sub_class](./Functions_Modules/sub_class.py): The class containing a sub class of Base class in super_class
-
-[class_import](./Functions_Modules/class_import.py): showing how class methods can imported and its attribute and methods altered
-
-
-
 ## [Data_structures](./Data_structures/) :File containing some valuable basics on various data structures like `lists`,`tuples`,`sets`,`dictionaries`
 
 [1-list.py](./Data_structures/1-lists.py): This file contains some detailed commeents on lissts, its methods and usage.
@@ -76,6 +55,26 @@ Normally tupples are immutable. Also are other basics of using a tuple.
 data structures.
 
 [5-pallindrom.py](./Data_structures/5-palindrome.py): This is a function that checks if a string is the same if read backwards(palindrome).
+
+## [Functions_Modules](./Functions_Modules/) : This codes show how to use functions, importing and modules.Also using *args and **kwargs in [some_functions](./Functions_Modules/some_functions.py)
+
+### [classes](./Functions_Modules/classes/) : some classes to show how sub class inherits from super class
+- [__init__.py](./Functions_Modules/classes/__init__.py) : The __init__.py files are required to make Python treat directories containing the file as packages.
+Typically, __init__.py is empty, but it can be used to configure the package or set the __all__ variable, which controls what symbols are imported when someone uses from package import *.
+- [super_class](./Functions_Modules/classes/super_class.py) : a super class , a file containing a parent class that would be imported into [sub_class](./Functions_Modules/classes/sub_class.py). Simply showing that class can be imported also
+- [sub_class](./Functions_Modules/classes/sub_class.py) : a sub class. The class containing a sub class of Base class in super_class
+
+- [__init__.py](./Functions_Modules/__init__.py) : The __init__.py files are required to make Python treat directories containing the file as packages.
+Typically, __init__.py is empty, but it can be used to configure the package or set the __all__ variable, which controls what symbols are imported when someone uses from package import *.
+
+[some_functions](./Functions_Modules/some_functions.py): This contains various functions and notes on some basic rule, syntax and ways for writing a python
+function properly. 
+
+[import_module](./Functions_Modules/import_module.py): This conatains codes importing the functions from [some_functions](./Functions_Modules/some_functions.py)
+The codes and comments shows how to use the import method thereby using your functions in other files.
+
+[class_import](./Functions_Modules/class_import.py): showing how class methods can imported and its attribute and methods altered
+
 
 ## [OOP_Objects_Classes](./OOP_Objects_Classes/) : File containing basics and codes on Object Oriented Programming. This is one of the most powerful methods of programming. Understanding OOP is encouraged to become good at programming and Data manipulations. Taking time to understand, recall and practice all the principles and fundamentals of this programming style is highly adviced.
 
@@ -96,6 +95,9 @@ __str__ and __repr__. The @staticmethod, @classmethods, __del__, and usage of cl
 [2-read_write.py](./Files_Input_Output/2-read_write.py): More indepth on how to write and read files. A code that will print each line, number it, state number of word, number of lenght and average word length.
 
 [3-json_parsing.py](./Files_Input_Output/3-json_parsing.py): JSON (JavaScript Object Notation) is a popular data format used for representing structured data. It's common to transmit and receive data between a server and web application in JSON format. Code to parse, read and write JSON in Python. Also, converting JSON to dict and pretty print it.
+
+[4.csv.py](./FIles_Input_Output4-csv.py): CSV files store data in a tabular form.
+
 
 ## [Testing](./Testing/) : Testing codes to ensure they work properly and as intended.
 
