@@ -108,3 +108,5 @@ __str__ and __repr__. The @staticmethod, @classmethods, __del__, and usage of cl
 
     - [2-customer_class.py](./Testing/Unittesting/2-customer_class.py): This is a class of customers with some attributes and methods.
     - [2-test_customer_class.py](./Testing/Unittesting/2-test_customer_class.py) A test file showing how to unittest a class
+
+* [Doctest](./Testing/Doctest/);
