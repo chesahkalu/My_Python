@@ -56,7 +56,7 @@ def cipher(message, key):
         else:
             print(i, end='')
     print("\n") 
-"""this is a simple program that will code change a written massage to different letterss with a given key.
+"""this is a simple program that will code change a written massage to different letters with a given key.
 The key shift the letters by the given number of positions.
 The usage of this function can be seen in the function file."""
 
