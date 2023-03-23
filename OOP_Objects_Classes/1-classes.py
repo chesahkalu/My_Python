@@ -25,7 +25,7 @@ class Users: #A class of users is created, with the class title ALWAYS STARTING 
     def say_who(self):
         print(f'I am {self.name},I am {self.age} years old and my height is {self.height}cm')
     """This is a function(Method), the (self) is used to make refrence to the instance/object using the function,
-    when an object calls the function, it uses the attribute data assigned to the self of that objec.
+    when an object calls the function, it uses the attribute data assigned to the self of that object.
     It uses the variables of the objects it was run with. This makes this an instance method """
 
     @classmethod
