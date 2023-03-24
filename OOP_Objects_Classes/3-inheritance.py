@@ -7,19 +7,31 @@ and the copied class a super class"""
 functions of the super class has to be called in the sub class as well as the sub class having its 
 own init functions for its attribute."""
 
-"""Methods can be overiden by siply Defining them and rewriting the code in the sub class.
-Methods can alsobe referred to by using the super() function to call on them."""
+"""Methods can be overiden by simply Defining them and rewriting the code in the sub class.
+Methods can also be referred to by using the super() function to call on them."""
 
-class Polygon:
-    def __init__(self, sides):
-        self.sides = sides #this would a list of differnt int reping the length of diff side of the polygon
+class Animal:
+
+    # attribute and method of the parent class
+    name = ""
     
-    def displayinfo(self):
-        print("A polygon is a two-dimensional geometric figure that has a finite number of sides,\
-              The sides of a polygon are made of straight line segments connected to each other end to end.\
-              Thus, the line segments of a polygon are called sides or edges.")
-        
-    def get_perimeter(self):
-        perimeter = sum(self.sides)
+    def eat(self):
+        print("I can eat")
 
-class Rectangle(Polygon): #this is a sub class inheriting all the attributes and methods of Polygon class.
+# inherit from Animal
+class Dog(Animal):
+
+    # new method in subclass
+    def display(self):
+        # access name attribute of superclass using self
+        print("My name is ", self.name)
+
+# create an object of the subclass
+labrador = Dog()
+
+# access superclass attribute and method 
+labrador.name = "Rohu"
+labrador.eat()
+
+# call subclass method 
+labrador.display()

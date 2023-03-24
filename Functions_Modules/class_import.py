@@ -45,6 +45,6 @@ print("--------------------------------")
 
 r1.update(y=1, width=2, x=3, id=89)
 print(r1)
-"""update(**kwargs) method applied anc checked"""
+"""update(**kwargs) method applied and checked"""
 
 
