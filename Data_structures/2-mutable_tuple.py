@@ -38,6 +38,10 @@ tup1 = 1,
 tup2 = 2,3,4
 tup3 = (5,6,7)
 tup4 = tup1 + tup2 + tup3 #tupples arent mutable but can be contated. and only with itself,
+tup5 = [tup1,tup2,tup3] #this is a list of tuples
+print(tup4)
+print(tup5)
+print (tup5[2][1]) #this prints the index 1 of the tuple, in the index 2 of the lisst of tuples
 print(tup4)
 
 #using tupples to swap values
