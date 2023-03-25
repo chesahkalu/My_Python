@@ -13,7 +13,7 @@ print(my_list)
 print(my_list2)
 
 print(my_list2[0])
-my_list2[2] = 'fuck you'
+my_list2[2] = 'I hate you'
 del my_list[4]
 print(my_list2)
 
