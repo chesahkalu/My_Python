@@ -58,9 +58,22 @@ data structures.
 
 [5-pallindrom.py](./Data_structures/5-palindrome.py): This is a function that checks if a string is the same if read backwards(palindrome).
 
+## [OOP_Objects_Classes](./OOP_Objects_Classes/) : File containing basics and codes on Object Oriented Programming. This is one of the most powerful methods of programming. Understanding OOP is encouraged to become good at programming and Data manipulations. Taking time to understand, recall and practice all the principles and fundamentals of this programming style is highly adviced. 
+
+[1-classes.py](./OOP_Objects_Classes/1-classes.py): file containing various basics about classes, its objects, methods and attribute. This codes contains
+lots of comment which might come in handy to better understand Classes.
+
+[2-getters_setters](./OOP_Objects_Classes/2-getters_setters.py): getters and setters are methods in python encapsulation. Encapsulation is basically bonding datas
+and methods of the data as a single unit.eg- A Class. This datas and methods can be set to either public or private. And getters and setters are used to access the
+datas and change the data respectively if they are set to private. In this code will contain various other magic methods used to make classes more powerful such as 
+__str__ and __repr__. The @staticmethod, @classmethods, __del__, and usage of class attributes in methods.
+
+[3-inheritance.py](./OOP_Objects_Classes/3-inheritance.py): All about a class inheriting the methods and atttributes of another class.
+
 ## [Functions_Modules](./Functions_Modules/) : This folder contains codes on functions and modules. Functions are a fundamental part of any programming language. They allow you to reuse code and write more maintainable programs. In Python, functions are defined using the def keyword. Functions can take parameters (arguments) and may return a value.This codes show how to use functions, importing and modules.Also using *args and **kwargs in [some_functions](./Functions_Modules/some_functions.py)
 
-### [classes](./Functions_Modules/classes/) : some classes to show how sub class inherits from super class
+### [classes](./Functions_Modules/classes/) : This folder contains codes on classes and inheritance,to show how sub class inherits from super class.
+
 - [__init__.py](./Functions_Modules/classes/__init__.py) : The __init__.py files are required to make Python treat directories containing the file as packages.
 Typically, __init__.py is empty, but it can be used to configure the package or set the __all__ variable, which controls what symbols are imported when someone uses from package import *.
 - [super_class](./Functions_Modules/classes/super_class.py) : a super class , a file containing a parent class that would be imported into [sub_class](./Functions_Modules/classes/sub_class.py). Simply showing that class can be imported also
@@ -78,18 +91,6 @@ The codes and comments shows how to use the import method thereby using your fun
 [class_import](./Functions_Modules/class_import.py): showing how class methods can imported and its attribute and methods altered
 
 
-## [OOP_Objects_Classes](./OOP_Objects_Classes/) : File containing basics and codes on Object Oriented Programming. This is one of the most powerful methods of programming. Understanding OOP is encouraged to become good at programming and Data manipulations. Taking time to understand, recall and practice all the principles and fundamentals of this programming style is highly adviced.
-
-[1-classes.py](./OOP_Objects_Classes/1-classes.py): file containing various basics about classes, its objects, methods and attribute. This codes contains
-lots of comment which might come in handy to better understand Classes.
-
-[2-getters_setters](./OOP_Objects_Classes/2-getters_setters.py): getters and setters are methods in python encapsulation. Encapsulation is basically bonding datas
-and methods of the data as a single unit.eg- A Class. This datas and methods can be set to either public or private. And getters and setters are used to access the
-datas and change the data respectively if they are set to private. In this code will contain various other magic methods used to make classes more powerful such as 
-__str__ and __repr__. The @staticmethod, @classmethods, __del__, and usage of class attributes in methods.
-
-[3-inheritance.py](./OOP_Objects_Classes/3-inheritance.py): All about a class inheriting the methods and atttributes of another class.
-
 ## [Files_Input_Output](./Files_Input_Output/): All about reading , writing and appending text files in UTF-8(Unicode Transformation Format) encoding into files.
 
 [1-intput_output.py](./Files_Input_Output/1-input_output.py): Codes on basics of opening ,reading, writing and closing files.
@@ -101,7 +102,7 @@ __str__ and __repr__. The @staticmethod, @classmethods, __del__, and usage of cl
 [4.csv.py](./FIles_Input_Output4-csv.py): CSV files store data in a tabular form.
 
 
-## [Testing](./Testing/) : Testing codes to ensure they work properly and as intended.
+## [Testing](./Testing/) : This folder contains codes on testing. Testing is a very important part of software development. It is the process of running a program or application with the intent of finding errors. It is also known as Debugging. There are two types of testing, manual and automated. Manual testing is done by a human tester, while automated testing is done by a software tool. Automated testing is further divided into unit testing, integration testing, and functional testing. Unit testing is the lowest level of software testing where individual units or components of a software are tested. Integration testing is done to evaluate the interfaces between integrated components or systems. Functional testing is done to evaluate the functionality of a system or its components against the business requirements. In this folder, we will be looking at unittesting and doctest.
 
 * [Unittesting](./Testing/Unittesting/); Unit tests are segments of code written to test other pieces of code, typically a single function or method, that we refer to as a unit. They are a very important part of the software development process, as they help to ensure that code works as intended and catch bugs early on.Unittest uses methods created in classes to manage tests. It has support for automation, setup, and shutdown code when testing. Unittest has several rich, in-built features that are unavailable in doctest,including generators and group fixture managers like setUp and tearDown.Since unittest follows the object-oriented method,it’s more suitable for testing class-based method
     - [1-max_integer.py](./Testing/Unittesting/1-max_integer.py): This is a code for a function that takes in a list of values and sorts them , then returns the highest
@@ -121,4 +122,3 @@ __str__ and __repr__. The @staticmethod, @classmethods, __del__, and usage of cl
 
     - [2-print_name.txt](./Testing/Doctest/2-print_name.txt): A doctest on the 2-print_name function.
 
-## [Python_Data_Structures](./Python_Data_Structures/): This folder contains codes on various data structures in python. Data structures are a way of organizing and storing data so that it can be accessed and worked with efficiently. There are many different types of data structures, and some are specialized to particular types of data while others are more generally used. In this folder, we will be looking at the most common data structures in Python, including lists, tuples, dictionaries, and sets.
