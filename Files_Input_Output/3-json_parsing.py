@@ -13,7 +13,7 @@ we import the json moule"""
 import json
 
 person = '{"name": "Bob", "languages": ["English", "French"]}' #json string(a list of dictionaries can be seen as a list of json strings)
-person_dict = json.loads(person) #this parses the string to return a dictionar, an will return a list of strings of dict if "person" is a list of dictionaries-json strings)
+person_dict = json.loads(person) #this parses the string to return a dictionary, and will return a list of strings of dict if "person" is a list of dictionaries-json strings)
 print(person_dict) #prints dictionary of person
 
 with open('path_to_file/person.json', 'r') as f: #this opens a file containing json string(object)

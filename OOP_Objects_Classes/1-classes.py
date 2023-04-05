@@ -66,3 +66,4 @@ user2.say_who()
 print(Users.company) #class variable
 Users.company = "Tesla" #class variable changed
 print(Users.company)
+user1.__dict__ #returns a dictionary of the objects attributes and their values

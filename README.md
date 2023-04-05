@@ -5,7 +5,9 @@
 - This README will contain a basic decription of the code content of each file.
 - In each file will contain comments like notes  stating the basic description and reason of functions,algorithms and syntax.
 
-## [Beginer_basics](./Beginer_basics/) :
+## [Beginer_basics](./Beginer_basics/) : This folder contains codes on the basics of python programming. It contains codes on the basic syntax.
+
+[0-hello_world.py](./Beginer_basics/0-hello_world.py) : This contains the basic syntax of python, including the `print` function, comments, and
 
 [1-yourname.py](./Beginer_basics/1-yourname.py) : This contains codes describing the various string inputs and outputs, including basic rules on
 formating and casting while using `print` functions.
@@ -42,7 +44,7 @@ It shows how to manipulate end of lines,spaces and new lines.
 [14-cipher](./Beginer_basics/14-cipher.py): This is a function that takes in a given message, and ciphers it to a hidden massage by moving each letter a number
 of places ahead. The number of places to be moved becomes the key. ie: if key is 1, letter A becomes letter B.
 
-## [Data_structures](./Data_structures/) :File containing some valuable basics on various data structures like `lists`,`tuples`,`sets`,`dictionaries`
+## [Python_Data_Structures](./Python_Data_Structures/): This folder contains codes on various data structures in python. Data structures are a way of organizing and storing data so that it can be accessed and worked with efficiently. There are many different types of data structures, and some are specialized to particular types of data while others are more generally used. In this folder, we will be looking at the most common data structures in Python, including lists, tuples, dictionaries, and sets.
 
 [1-list.py](./Data_structures/1-lists.py): This file contains some detailed commeents on lissts, its methods and usage.
 
@@ -56,7 +58,7 @@ data structures.
 
 [5-pallindrom.py](./Data_structures/5-palindrome.py): This is a function that checks if a string is the same if read backwards(palindrome).
 
-## [Functions_Modules](./Functions_Modules/) : This codes show how to use functions, importing and modules.Also using *args and **kwargs in [some_functions](./Functions_Modules/some_functions.py)
+## [Functions_Modules](./Functions_Modules/) : This folder contains codes on functions and modules. Functions are a fundamental part of any programming language. They allow you to reuse code and write more maintainable programs. In Python, functions are defined using the def keyword. Functions can take parameters (arguments) and may return a value.This codes show how to use functions, importing and modules.Also using *args and **kwargs in [some_functions](./Functions_Modules/some_functions.py)
 
 ### [classes](./Functions_Modules/classes/) : some classes to show how sub class inherits from super class
 - [__init__.py](./Functions_Modules/classes/__init__.py) : The __init__.py files are required to make Python treat directories containing the file as packages.
@@ -118,3 +120,5 @@ __str__ and __repr__. The @staticmethod, @classmethods, __del__, and usage of cl
     the format `My name is <first_name> <last_name>`.
 
     - [2-print_name.txt](./Testing/Doctest/2-print_name.txt): A doctest on the 2-print_name function.
+
+## [Python_Data_Structures](./Python_Data_Structures/): This folder contains codes on various data structures in python. Data structures are a way of organizing and storing data so that it can be accessed and worked with efficiently. There are many different types of data structures, and some are specialized to particular types of data while others are more generally used. In this folder, we will be looking at the most common data structures in Python, including lists, tuples, dictionaries, and sets.

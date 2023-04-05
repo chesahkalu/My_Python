@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 """Defines a rectangle class."""
-#from super_class import Base
+from super_class import Base
 """Here the parent class Base is imported from super_class file"""
 
-class Rectangle():
+class Rectangle(Base):
     """Represent a rectangle."""
 
     def __init__(self, width, height, x=0, y=0, id=None):

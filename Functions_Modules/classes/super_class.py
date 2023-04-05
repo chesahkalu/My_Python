@@ -9,7 +9,7 @@
 class Base:
     """Represent the base model.
 
-    Represents the "base" for all other classes in project 0x0C*.
+    Represents the "base" for all other classes
 
     Attributes:
         __nb_objects (int): The number of instantiated Bases.
