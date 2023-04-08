@@ -17,3 +17,6 @@ if __name__ == "__main__":
         
         print(dict_head.get('Content-Length')) #gets the value of the Content-Length header using the get() method.
         
+        with open("example.html", mode="wb") as html_file: #writes the body of the response to a file. wb is used to write in binary mode.
+            html_file.write(body) #writes the body of the response to a file.
+        

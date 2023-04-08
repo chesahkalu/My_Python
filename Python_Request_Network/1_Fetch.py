@@ -15,4 +15,4 @@ if __name__ == "__main__":
         print("Body response:") 
         print("\t- type: {}".format(type(body))) #print the type of the body => bytes
         print("\t- content: {}".format(body)) #print the body, which is a bytes object indicated by b'...'
-        print("\t- utf8 content: {}".format(body.decode("utf-8"))) #print the body decoded in utf-8, which is a string.
+        print("\t- utf8 content: {}".format(body.decode("utf-8"))) #print the bytes body decoded in utf-8, which is a string.
