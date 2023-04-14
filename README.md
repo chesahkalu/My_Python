@@ -124,9 +124,11 @@ The codes and comments shows how to use the import method thereby using your fun
 
 
 ## [MySQLdb_SQLAlchemy](./MySQLdb_SQLAlchemy/) :
+### [MySQLdb_SQLAchemy](./)
 
-## [Python_Fabric](./Python_Fabric/): Fabric is a powerful Python library and command-line utility that simplifies the use of SSH for tasks related to application deployment or system administration. With Fabric, you can automate repetitive command-line tasks and streamline your workflow, resulting in significant time savings.
+## [Python_Fabric](./Python_Fabric/): Fabric is a powerful Python library and command-line utility that simplifies the use of SSH for tasks related to application deployment or system administration. With Fabric, you can automate repetitive command-line tasks and streamline your workflow, resulting in significant time savings.SSH is used to connect to remote servers and do everything such as initiating a web server.With Fabric, you can perform SSH activities from your local computer.
 
+[fabfole.py](./Python_Fabric/fabfile.py) : A file showing some of the basic commands of fabric. It shows how to connect to a remote server, run commands, upload and download files, and execute tasks in parallel. It also comments on some of the basic syntax of fabric and do's and don'ts.
 
 ## [Python_Request_Network](./Python_Request_Network/): This folder contains codes on how to make requests to a server and get responses from it using the requests module. It also contains codes on how to use the urllib module to make requests to a server and get responses from it. This request and response can be in the form of JSON, XML, HTML, etc. The requests module is a simple and elegant Python HTTP library. It provides methods for accessing Web resources via HTTP. It also allows you to access the response data of Python in the same way. The urllib module provides a high-level interface for fetching data across the World Wide Web. It is a package that collects several modules for working with URLs, such as urllib.request for opening and reading URLs, urllib.error containing the exceptions raised by urllib.request, and urllib.parse for parsing URLs. It also contains a subpackage, urllib.robotparser, which can be used to read robots.txt files.
 
