@@ -109,9 +109,9 @@ if __name__ == "__main__":
     We do not want this to happen, we want only the above codes(the functions) to run in the other file(import_module).
     The above code which doesnt really have an output will run first in the module using it. And the bellow code will usually
     run also and produce its output as it is part of the imported file. 
-    To stop this from happening, the "If __name == "__main__",  is put above this codes we do not want running.
-    This means that this codes will only run , if the program senses that the file is being exectued and run like a script.
-    IT Check if the script is being run as the main program (as opposed to being imported as a module).
+    To stop this from happening, the "If __name__ == "__main__",  is put above this codes we do not want running.
+    This means that this codes will only run , if the program senses that the file is being exectued and run like a script. eg ./some_funtions.py
+    IT Check if the script name is being run as the main program (as opposed to being imported as a module).
     
     So when the file is imported, and the file using the the function is run,
     the  program recognises the defined functions, but doesnt run the codes below
