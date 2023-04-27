@@ -139,3 +139,5 @@ The codes and comments shows how to use the import method thereby using your fun
 [1_Fetch.py](./Python_Request_Network/1_Fetch.py):
 
 
+[2_Header_fetch.py](./Python_Request_Network/2_Header_fetch.py):
+
