@@ -36,3 +36,9 @@ of the user. The .env file should be in the following format: database=mysql ,  
 """This file can be included inthe gitignore file so that it is not pushed to the remote repository as it contains
 private information. An .env.example file can be created which will contain the names of the environment variables"""
 
+
+"""The python-dotenv package allows a Python application to import variables defined in a .env file into the environment. 
+You can install python-dotenv in your virtual environment using pip:  pip install python-dotenv"""
+
+from dotenv import load_dotenv
+load_dotenv() #this will load the environment variables from the .env file into the environment. If a .env file is not found in the current directory, then the parent directory is searched for it.
