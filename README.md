@@ -134,6 +134,9 @@ The codes and comments shows how to use the import method thereby using your fun
 
 [deploy.py](./Python_Fabric/deploy.py) : A file showing how to use fabric to deploy a folder to a remote server. It shows how to use the run() function to run a command on the remote server that will decompress a folder from a single file using the tar command. It also creates a symbolic link to the folder on the remote server.
 
+## [Python_Env_Variables](./Python_Env_Variables/): This folder contains informations concerning python environmental variables. This are variables stored outside your code base to be assesed by your codes during run. It is a way of keeping some info in the form of variables private. Also with ENV variables, changing them do not require touching your codes rather just assesing and changing the env_variables itself.
+
+
 ## [Python_Request_Network](./Python_Request_Network/): This folder contains codes on how to make requests to a server and get responses from it using the requests module. It also contains codes on how to use the urllib module to make requests to a server and get responses from it. This request and response can be in the form of JSON, XML, HTML, etc. The requests module is a simple and elegant Python HTTP library. It provides methods for accessing Web resources via HTTP. It also allows you to access the response data of Python in the same way. The urllib module provides a high-level interface for fetching data across the World Wide Web. It is a package that collects several modules for working with URLs, such as urllib.request for opening and reading URLs, urllib.error containing the exceptions raised by urllib.request, and urllib.parse for parsing URLs. It also contains a subpackage, urllib.robotparser, which can be used to read robots.txt files.
 
 [1_Fetch.py](./Python_Request_Network/1_Fetch.py):
