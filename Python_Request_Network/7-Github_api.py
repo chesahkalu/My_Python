@@ -17,3 +17,5 @@ print(json.get("name")) # print the value of the "name" key in the json represen
 
 for k, v in json.items():
     print("{}: {}".format(k, v)) # print the key and value of each item in the json representation of the response
+
+"""Be careful: only 60 requests by hour by IP for unauthenticated requests - https://docs.github.com/en/rest"""
