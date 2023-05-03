@@ -146,4 +146,16 @@ The codes and comments shows how to use the import method thereby using your fun
 
 [2_Header_fetch.py](./Python_Request_Network/2_Header_fetch.py):
 
+[3-Fetch_requests.py](./Python_Request_Network/3-Fetch_requests.py):
 
+[4-Header_requests.py](./Python_Request_Network/4-Header_requestss.py):
+
+[5-Post_request.py](./Python_Request_Network/5-Post_request.py):
+
+[6-Query_fetch.py](./Python_Request_Network/6-Query_fetch.py):
+
+[7-Github_api.py](./Python_Request_Network/7-Github_api.py):
+
+[8-My_github.py](./Python_Request_Network/8-My_github.py):
+
+[9-Github_commits.py](./Python_Request_Network/9-Github_commits.py):
