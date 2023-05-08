@@ -141,12 +141,11 @@ The codes and comments shows how to use the import method thereby using your fun
 
 ## [Python_Request_Network](./Python_Request_Network/): This folder contains codes on how to make requests to a server and get responses from it using the requests module. It also contains codes on how to use the urllib module to make requests to a server and get responses from it. This request and response can be in the form of JSON, XML, HTML, etc. The requests module is a simple and elegant Python HTTP library. It provides methods for accessing Web resources via HTTP. It also allows you to access the response data of Python in the same way. The urllib module provides a high-level interface for fetching data across the World Wide Web. It is a package that collects several modules for working with URLs, such as urllib.request for opening and reading URLs, urllib.error containing the exceptions raised by urllib.request, and urllib.parse for parsing URLs. It also contains a subpackage, urllib.robotparser, which can be used to read robots.txt files.
 
-[1_Fetch.py](./Python_Request_Network/1_Fetch.py):
+[1_Fetch.py](./Python_Request_Network/1_Fetch.py): code creates a request object for the URL. The URL can be passed directly to the below line. By creating a Request object, you can specify additional parameters for the request, such as headers data to be sent with the request, and HTTP method (GET, POST, PUT, etc.)
 
+[2_Header_fetch.py](./Python_Request_Network/2_Header_fetch.py): 
 
-[2_Header_fetch.py](./Python_Request_Network/2_Header_fetch.py):
-
-[3-Fetch_requests.py](./Python_Request_Network/3-Fetch_requests.py):
+[3-Fetch_requests.py](./Python_Request_Network/3-Fetch_requests.py): 
 
 [4-Header_requests.py](./Python_Request_Network/4-Header_requestss.py):
 
