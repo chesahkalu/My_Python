@@ -139,7 +139,7 @@ The codes and comments shows how to use the import method thereby using your fun
 
 [env_variables.py](./Python_Env_Variables/env_variables.py): This is a file showing how to use env variables in python. It shows how to use the os.environ.get() function to get the value of an env variable. It also shows how to use the os.environ.setdefault() function to set the value of an env variable. It also shows how to use the os.environ.update() function to update the value of an env variable. It also shows how to use the os.environ.pop() function to delete an env variable. It also shows how to use the os.environ.clear() function to clear all env variables.
 
-## [Python_OpenAI](./Python_OpenAI/): 
+## [Python_OpenAI](./Python_OpenAI/): This folder contains codes on the basic of prompting with OpenAI.  
 
 ## [Python_Request_Network](./Python_Request_Network/): This folder contains codes on how to make requests to a server and get responses from it using the requests module. It also contains codes on how to use the urllib module to make requests to a server and get responses from it. This request and response can be in the form of JSON, XML, HTML, etc. The requests module is a simple and elegant Python HTTP library. It provides methods for accessing Web resources via HTTP. It also allows you to access the response data of Python in the same way. The urllib module provides a high-level interface for fetching data across the World Wide Web. It is a package that collects several modules for working with URLs, such as urllib.request for opening and reading URLs, urllib.error containing the exceptions raised by urllib.request, and urllib.parse for parsing URLs. It also contains a subpackage, urllib.robotparser, which can be used to read robots.txt files.
 
