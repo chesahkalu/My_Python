@@ -26,15 +26,15 @@ class Rectangles:
         Which can be used for JSON parsing. Check JSON arsing in Files input and output"""
         return self.__dict__
     
-    @property #this is a function used to get the private attribute data of the refered object(property).it creates and return the property of the object
+    @property #this is a function used to get the private attribute data of the refered object(property).Getter functions are meant to simply return (get) the value of an object's private variable to the user without the user directly accessing the private variable.
     def height(self):
         return self.__height
-        """this is the getter function, that retrieves the length value and the two underscores return them as private data
+        """this is the getter function, that retrieves the height value and the two underscores return them as private data
         therefore returning __length"""
 
-    @height.setter #the function to change the length attribute while raising some errors if the change isnt in a required form
+    @height.setter #the function to change the height attribute while raising some errors if the change isnt in a required form
     def height(self, value):
-        """length is set, and value is created to assign to length"""
+        """height is set, and value is created to assign to height"""
 
         if type(value) is not int:
             raise TypeError("height must be an integer")
