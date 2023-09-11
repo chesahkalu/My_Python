@@ -13,8 +13,11 @@ def index():
     return 'Hello HBNB!'
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port='5000') #specify the url, without this it will run on "http://127.0.0.1:5000/""
+    app.run(host='0.0.0.0', port='5000', debug = True) #specify the url and port, without this it will run on "http://127.0.0.1:5000/""
 
+# The method should be restarted manually for any change in the code. To overcome this, the debug support is enabled so as to track any error.
 # on terminal enter = 'export FLASK_APP=0-hello_route.py' to set the file to be run as the flask app
 # on terminal enter = 'flask run' to run the flask app
 # or enter = 'python3 <filename>' to run the file directly
+# The method should be restarted manually for any change in the code. To overcome this, the debug support is enabled so as to track any error.
+
