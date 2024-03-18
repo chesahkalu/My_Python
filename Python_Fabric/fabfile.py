@@ -9,7 +9,7 @@
 from fabric.api import * #import all functions from fabric. eg; local, run, env, put, get, sudo, cd, lcd, prefix, settings, hide, warn, abort, require, roles, execute, task, runs_once, parallel, serial, hosts, shell_env
 
 """SERVER DETAILS if need be"""
-env.hosts = "107.23.106.187" #ip address of the server
+env.hosts = "100.24.238.79" #ip address of the server
 env.user = "ubuntu" #username of the server
 env.key_filename = "~/.ssh/school" #path to the ssh key file
 env.password = "password" #password of the server if ssh key is not used
@@ -43,7 +43,9 @@ def check6():
     print("-----")
     print(output) # print the output of the cat command
 
-
+def reboot():
+    run("sudo reboot now")
+    
 def all(): # to create a function that runs all the functions above
     check1()
     check2()

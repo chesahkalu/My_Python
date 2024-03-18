@@ -13,7 +13,7 @@ user = os.getenv('USER' , 'No user') # this will return 'No user' if the environ
 
 
 user = os.environ['USER'] # this is another method of getting the value of environment variable 'USER', but this will raise an exception if the environment variable 'USER' is not set in the system
-user = os.environ.get['USER'] # this will return None if the environment variable 'USER' is not set in the system
+user = os.environ.get['USER'] # this will return None if the environment variable 'USER' is not set in the system.
 print(user)
 
 
@@ -33,7 +33,7 @@ A .env file can be used to store the value of environment variables permanently 
 will be automatically loaded when the system starts up. The .env file should be placed in the home directory
 of the user. The .env file should be in the following format: database=mysql ,  one environment variable per line."""
 
-"""This file can be included inthe gitignore file so that it is not pushed to the remote repository as it contains
+"""This file can be included inthe .gitignore file so that it is not pushed to the remote repository as it contains
 private information. An .env.example file can be created which will contain the names of the environment variables"""
 
 
@@ -41,4 +41,13 @@ private information. An .env.example file can be created which will contain the 
 You can install python-dotenv in your virtual environment using pip:  pip install python-dotenv"""
 
 from dotenv import load_dotenv
-load_dotenv() #this will load the environment variables from the .env file into the environment. If a .env file is not found in the current directory, then the parent directory is searched for it.
+load_dotenv() #this will load the environment variables from the .env file into the environment. If a .env file is not found in the current directory, then the parent directory is searched for it./
+#               you can also verify the path to the .env file to be searched - load_dotenv(path)
+
+import openai
+import os
+
+from dotenv import load_dotenv, find_dotenv
+_ = load_dotenv(find_dotenv())
+
+openai.api_key  = os.getenv('OPENAI_API_KEY')
